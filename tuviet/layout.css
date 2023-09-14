@@ -1,0 +1,42 @@
+
+
+#wrapper{
+    max-width: 960px;
+
+    margin: 0px auto;
+    /* căn giữa */
+}
+#header{
+    background-color: blue;
+    /* màu nền của header */
+    color: #fff;
+    /* màu chữ  */
+    padding: 20px;
+    /* căn chỉnh khoảng cách của thẻ header đến viền */
+    text-align: center;
+}
+#main-content{
+    display: flex;
+    /* căn chỉnh các phần tử trong đó gồm có content và side bar hiển tị theo hàng ngang */
+    min-height: 500px;
+    /* độ cao nhỏ nhất của phần thân . nó sẽ đẩy phần footer xuống dưới( lớn hơn hoặc = 500px)*/
+}
+#content{
+    width: 70%;
+    /* flex-basis: 70%; giống như width: 70% */
+    /* độ rộng 70% */
+    
+}
+#sidebar{
+    flex-basis: 30%;
+}
+#footer{
+    background-color: gray;
+    /* màu nền của phần kết */
+    padding: 15px 0px;
+    /* độ rộng trên dưới = 15px , trái phải = 0 px  */
+    font-size: 10px;
+    /* size chữ = 10px */
+    text-align: center;
+    /* căn giữa footer  */
+}
