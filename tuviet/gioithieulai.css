@@ -13,7 +13,7 @@ body{
     /* màu nền của header */
     color: rgb(137, 105, 105);
     /* màu chữ  */
-    padding: 20px;
+    padding: 10px 50PX 50px 10px;
     /* căn chỉnh độ rộng của thẻ header đến viền */
     text-align: center;
 }
@@ -27,13 +27,13 @@ body{
 #content{
    
     color:  rgb(137, 105, 105);
-    width: 70%;
+    width: 50%;
     /* flex-basis: 70%; giống như width: 70% */
     /* độ rộng 70% */
     
 }
 #sidebar{
-    flex-basis: 30%;
+    flex-basis: 25%;
     color:  rgb(142, 102, 102);
     
 }
@@ -46,4 +46,16 @@ body{
     /* size chữ = 10px */
     text-align: center;
     /* căn giữa footer  */
+}
+#chenanh{
+    margin: 0px 120px;
+    color: rgb(142, 102, 102) ;
+}
+#logo{
+   margin: 0px 0px 0px 0px;
+   padding: 0px;
+}
+#content0{
+    flex-basis: 25%;
+    color:  rgb(142, 102, 102);
 }
