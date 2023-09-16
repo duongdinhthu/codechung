@@ -1,0 +1,22 @@
+body{
+    background:url(../tuviet/anh/Lovepik_com-500609606-real-estate-concept.jpg);
+    background-size: cover;
+    /* Tự chia tỷ lệ tới kích thước lớn nhất của chiều rộng hoặc chiều cao để phù hợp với vùng nội dung.
+
+Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% theo chiều cao, chiều rộng sẽ tự động chỉnh tỷ lệ cho phù hợp (auto).
+/* Ngược lại nếu chiều rộng lớn hơn chiều cao thì background sẽ chỉnh 100% theo chiều rộng, chiều cao sẽ tự động chỉnh tỷ lệ cho phù hợp (auto) */
+    background-position: 0px; 
+    /* căn chỉnh ảnh nền lên xuống */
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* Nói một cách dễ hiểu, giá trị này sẽ căn giữa các thành phần trong flexbox */
+    align-items: center;
+    /* căn chỉnh các thành phần giữa trục ngang */
+}
+#form-login{
+    max-width: 400px;
+    
+}
