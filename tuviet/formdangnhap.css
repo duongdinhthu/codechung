@@ -1,5 +1,5 @@
 body{
-    background:url(../tuviet/anh/Lovepik_com-500609606-real-estate-concept.jpg);
+    background:url(../tuviet/anh/pngtree-gray-gear-technology-poster-background-material-image_122631.jpg);
     background-size: cover;
     /* Tự chia tỷ lệ tới kích thước lớn nhất của chiều rộng hoặc chiều cao để phù hợp với vùng nội dung.
 
@@ -17,6 +17,77 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     /* căn chỉnh các thành phần giữa trục ngang */
 }
 #form-login{
+    border-radius: 20px;
+    /* bo tròn khung login  */
     max-width: 400px;
+    background: rgba(1, 1, 1, 0.8);
+    /* nền của form login */
+    flex-grow: 1;
+    /* lấy lại tỉ lệ đúng của form login 400px */
+    padding: 30px 30px 40px;
+    /* căn chỉnh khoảng cách đến viền form login */
+    box-shadow: 0px 0xp 50px 50px rgba(250, 248, 248, 0.8);
+    /* chỉnh hào quang phát ra xung quanh formlogin */
+}
+.form-heading{
+    font-size: 25px;
+    /* size chữ đăng nhập */
+    color: #f5f5f5;
+    /* màu chữ đăng nhập */
+    text-align: center;
+    /* căn chỉnh ra giữa chữ đăng nhập */
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    /* chạy dòng kẻ ngang liền mạch rộng 1px dưới đăng nhập và mật khẩu */
+    margin-top: 15px;
+    /* khoảng cách 2 dòng đăng nhập mật khẩu là 15px */
+    margin-bottom: 20px;
+    /* khoảng cách giữa nút đăng nhập lên dòng mật khẩu là 20px */
+    display: flex;
     
+}
+.form-input{
+    background: transparent;
+    /* nền form input trong suốt theo nền heading */
+    border: 0;
+    /* khi chỉ chuột vào sẽ có viền trắng */
+    outline: 0;
+    /* bỏ viền khi trỏ chuột */
+    color: #f5f5f5;
+    /* màu khi nhập vào từ người dùng */
+    flex-grow: 1;
+   
+}
+#eye i{
+    padding-right: 0px;
+    /* cho khoảng cách icon sang phải = 0  */
+    cursor: pointer;
+    /* thêm hình bàn tay  */
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+    /* hiển thi tên đăng nhập và mật khẩu màu trắng */
+
+}
+
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    width: 100%;
+    text-transform: uppercase;
+    /* viết hoa  */
+    padding: 6px 10px;
+    /* khoảng cách đến viền  */
+    color: #f5f5f5;
+    border-radius: 5px;
+    /* bo tròn nút đăng nhập  */
+}
+.form-submit:hover{
+    /* khi trỏ chuột vào  */
+    border: 1px solid #d35959;
+}
+.form-group i{
+    padding-right: 10px;
 }
