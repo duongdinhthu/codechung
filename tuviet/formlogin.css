@@ -1,0 +1,62 @@
+body{
+    background: url(../tuviet/anh/isinhvien-897-p10.jpg);
+    background-size: cover;
+}
+#wrapper{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    /* Cân giữa hàng dọc  */
+    align-items: center;
+    /* căn chỉnh thàn phần trục ngang  */
+}
+#form-login{
+    padding: 15px 30px 40px 30px;
+    /* khoảng cách từ từ phần tử đến viền form  */
+    border-radius: 20px;
+    /* bo tròn cạnh form  */
+    max-width: 400px;
+    background: #000000;
+    flex-grow: 1;
+    opacity: 0.6;
+    /* chỉnh độ trong suốt của nền backgroud  */
+    box-shadow: 3px 3px 4px 3px #fff;
+}
+.form-heading{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.form-group{
+    border-bottom: 3px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-input{
+    background: transparent;
+    color: #fff;
+    border: 0px;
+    outline: 0px;
+    flex-grow: 1;
+}
+
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    width: 100%;
+    text-transform: uppercase;
+     /* viết hoa  */
+    padding: 6px 10px;
+    /* khoảng cách đến viền  */
+    color: #f5f5f5;
+    border-radius: 5px;
+    /* bo tròn nút đăng nhập  */
+    cursor: pointer;
+}
+#eye i{
+    padding-right: 0px;
+    cursor: pointer;
+}
+

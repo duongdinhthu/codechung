@@ -64,7 +64,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     padding-right: 0px;
     /* cho khoảng cách icon sang phải = 0  */
     cursor: pointer;
-    /* thêm hình bàn tay  */
+    /* thêm hình bàn tay  khi trỏ chuột vào mắt*/
 }
 .form-input::placeholder{
     color: #f5f5f5;
