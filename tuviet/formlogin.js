@@ -1,3 +1,4 @@
+alert('Form đăng nhập Thứ đẹp trai nhé . hehe')
 document.addEventListener('DOMContentLoaded', function(){
     const searchIcon = document.getElementById('search-icon');
     const searchForm = document.getElementById('search-form');
@@ -9,14 +10,7 @@ document.addEventListener('DOMContentLoaded', function(){
             searchForm.style.display = 'block';
         }
     });
-
 });
-document.addEventListener('click', function(even){
-    if(even.target == searchIcon){
-        alert('ok')
-    }
-});
-
 
 $(document).ready(function(){
     // $ là tạo sự kiện cho document, ready là sẵn sàng chạy 
