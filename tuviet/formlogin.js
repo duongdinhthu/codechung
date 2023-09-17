@@ -10,8 +10,12 @@ document.addEventListener('DOMContentLoaded', function(){
             searchForm.style.display = 'block';
         }
     });
+    document.addEventListener('click', function(even){
+        if(even.target != searchIcon && !searchForm.contains(even.target)){
+            searchForm.style.display = 'none';
+        }
+    })
 });
-
 $(document).ready(function(){
     // $ là tạo sự kiện cho document, ready là sẵn sàng chạy 
     $('#eye').click(function(){
@@ -28,5 +32,4 @@ $(document).ready(function(){
             $(this).prev().attr('type', 'password');
         }
     });
-
 });
