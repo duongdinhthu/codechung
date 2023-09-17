@@ -1,4 +1,5 @@
 alert('Chào mừng bạn đến với form đăng nhập của Thứ đẹp trai ');
+alert('Thứ 18+ chuyên thích gái đẹp')
 $(document).ready(function(){
     // $ là tạo sự kiện cho document, ready là sẵn sàng chạy 
     $('#eye').click(function(){
