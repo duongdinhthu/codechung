@@ -9,14 +9,22 @@ body{
     float: left;
     /* căn giữa */
 }
-#header{
+#dautrang{
+    display: flex;
     background-color:rgb(157, 151, 211);
+    text-align: center;
+}
+#dangnhap{
+    padding-right: 0px;
+    flex-basis: 15%;
+}
+#header{
     /* màu nền của header */
     color: rgb(137, 105, 105);
     /* màu chữ  */
-    padding: 10px 50PX 50px 10px;
+    padding-right: 50px;
     /* căn chỉnh độ rộng của thẻ header đến viền */
-    text-align: center;
+    flex-basis: 80%;
 }
 #main-content{
     background-color: rgb(178, 173, 225);
