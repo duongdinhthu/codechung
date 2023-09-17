@@ -1,4 +1,4 @@
-alert('Dương Đình Thứ chào bạn? ');
+alert('Chào mừng bạn đến với form đăng nhập của Thứ đẹp trai ');
 $(document).ready(function(){
     // $ là tạo sự kiện cho document, ready là sẵn sàng chạy 
     $('#eye').click(function(){
