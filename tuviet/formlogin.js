@@ -1,5 +1,23 @@
-alert('Chào mừng bạn đến với form đăng nhập của Thứ đẹp trai ');
-alert('Thứ 18+ chuyên thích gái đẹp')
+document.addEventListener('DOMContentLoaded', function(){
+    const searchIcon = document.getElementById('search-icon');
+    const searchForm = document.getElementById('search-form');
+
+    searchIcon.addEventListener('click', function(){
+        if(searchForm.style.display === 'block'){
+            searchForm.style.display = 'none';
+        } else{
+            searchForm.style.display = 'block';
+        }
+    });
+
+});
+document.addEventListener('click', function(even){
+    if(even.target == searchIcon){
+        alert('ok')
+    }
+});
+
+
 $(document).ready(function(){
     // $ là tạo sự kiện cho document, ready là sẵn sàng chạy 
     $('#eye').click(function(){
