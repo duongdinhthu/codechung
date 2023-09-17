@@ -1,18 +1,27 @@
 alert('Form đăng nhập Thứ đẹp trai nhé . hehe')
 document.addEventListener('DOMContentLoaded', function(){
+    // tạo ra sự kiện khi giao diện đã load xong thì làm 1 chức năng gì đó 
     const searchIcon = document.getElementById('search-icon');
     const searchForm = document.getElementById('search-form');
-
+    // khai báo 2 biến icon và form trong đó const là khai báo hàm số 
     searchIcon.addEventListener('click', function(){
+        // khai báo sự kiện khi người dùng click vào icon 
         if(searchForm.style.display === 'block'){
+            //nếu form đang hiển thị
             searchForm.style.display = 'none';
-        } else{
+            // thì sẽ ẩn form 
+        } else{ 
+            // ngược lại
             searchForm.style.display = 'block';
+            // thì sẽ hiển thị form 
         }
     });
     document.addEventListener('click', function(even){
+        // tạo sự kiện click vào 1 vùng bất kì gọi là even 
         if(even.target != searchIcon && !searchForm.contains(even.target)){
+            // nếu vị trí vừa nhấp không phải là icon VÀ không thuộc search form 
             searchForm.style.display = 'none';
+            // thì sẽ ẩn searchform 
         }
     })
 });
