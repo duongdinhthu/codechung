@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/tuviet/gioithieulai.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/tuviet/gioithieulai.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/tuviet/formlogin.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/tuviet/formlogin.html"
+        }
+    ]
+}

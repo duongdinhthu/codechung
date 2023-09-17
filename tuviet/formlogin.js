@@ -1,3 +1,4 @@
+alert('Dương Đình Thứ chào bạn? ');
 $(document).ready(function(){
     // $ là tạo sự kiện cho document, ready là sẵn sàng chạy 
     $('#eye').click(function(){
