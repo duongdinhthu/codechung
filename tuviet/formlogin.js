@@ -42,3 +42,12 @@ $(document).ready(function(){
         }
     });
 });
+document.addEventListener('DOMContentLoaded', function(){
+    const body = document.body;
+    const switch_mode = document.querySelector('#switch-mode i')
+    switch_mode.addEventListener('click',() =>{
+    body.classList.toggle('dark');
+});
+});
+
+    

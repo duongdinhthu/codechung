@@ -59,11 +59,15 @@ body{
     padding-right: 0px;
     cursor: pointer;
 }
-#search-container{
+.search-container{
     position: relative;
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    background-color: #333;
+    margin: 0 auto;
+    padding: 10px;
+    background: #f5f5f5;
 }
 #search-icon{
     font-size: 28px;
@@ -83,4 +87,31 @@ body{
     box-shadow: 0px 2px 4px #000;
     
 }
+.form-submit:hover{
+    border: 1px solid firebrick;
+}
+.d-flex{
+    display: flex;
+}
 
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: end;
+}
+#switch-mode{
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+#keyword{
+    margin-left: 20px;
+}
+.dark{
+    background-color: #f5f5f5;
+    color: #000;
+}
+body.dark#wrapper{
+    background-color: #333;
+}
