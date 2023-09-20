@@ -123,10 +123,10 @@ body{
 .box form .inputBox span{
     position: absolute;
     left: 0;
-    padding: 20px 0px 10px;
+    padding: 20px 10px;
     pointer-events: none;
     color: #8f8f8f;
-    font-size: 1em;
+    font-size: 0.75em;
     letter-spacing: 0.05em;
     transition: 0.5s;
 }
@@ -135,7 +135,7 @@ body{
 {
     color: #ffffff;
     font-size: 0.75em;
-    transform: translate(-34px);
+    transform: translateY(-32px);
 }
 .box form .inputBox i{
     position: absolute;
@@ -143,11 +143,12 @@ body{
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: transparent;
     border-radius: 4px;
     overflow: hidden;
     transition: 0.5s;
     pointer-events: none;
+    border-bottom:1px solid #ffffff;
 }
 .box form .inputBox input:valid ~ i,
 .box form .inputBox input:valid ~ i
