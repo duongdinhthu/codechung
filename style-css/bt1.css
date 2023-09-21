@@ -1,5 +1,7 @@
+
 body{
     max-width: 100%;
+    font-family: sans-serif;
 }
 #wrapper{
     display: flex;
@@ -13,6 +15,10 @@ body{
 .main-content{
     min-width: 40% ;
     margin-left: 50px;
+    display: flex;
+    /* hiện lên theo hàng ngang */
+    flex-direction: column;
+    /* chuyển flex theo hàng dọc  */
 }
 .username{
     border: none;
@@ -20,13 +26,13 @@ body{
 }
 #use{
     border: 1px solid;
-    padding: 3px;
+    padding: 5px;
     width: 80%;
     
 }
 .email1{
     border: 1px solid;
-    padding: 3px;
+    padding: 5px;
     width: 80%;
 }
 .email{
@@ -35,7 +41,7 @@ body{
 }
 .password1{
     border: 1px solid;
-    padding: 3px;
+    padding: 5px;
     margin-bottom: 30px;
     width: 80%;
 }
@@ -58,18 +64,24 @@ body{
     background: transparent;
 }
 .bt1{
-    width: 40%;
+    width: 37%;
     font-size: 25px;
     text-align: center;
-    box-shadow: 0px 2px 5px 5px #6d1616;
+    box-shadow: 0px 1px 1px 2px #6d1616;
     border-radius: 7px;
+    margin-right: 7%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .bt2{
-    width: 40%;
+    width: 37%;
     font-size: 25px;
     justify-content: center; 
-    box-shadow: 0px 2px 5px 5px #6d1616;
+    box-shadow: 0px 0px 1px 2px #6d1616;
     border-radius: 7px;
+    align-items: center;
+    display: flex;
 }
 .logo{
     display: flex;
@@ -89,5 +101,25 @@ body{
 }
 .image{
     margin-left: 150px;
+    background-repeat: no-repeat;
+    /* không lặp lại ảnh */
+    background-size: contain;
+    /* hiển thị ảnh bên trong phần tử . không quá phần tử */
+    background-position: center;
+    /* nằm giữa phần tử  */
+}
+.Question{
+    margin-bottom: 20px;
+}
+.text{
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    /* in đậm  */
+}
+#btn{
+    display: flex;
 }
 
