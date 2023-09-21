@@ -17,6 +17,12 @@
             "name": "http://127.0.0.1:3000/tuviet/loginmoi.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/tuviet/loginmoi.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/tuviet/formloginmoi.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/tuviet/formloginmoi.html"
         }
     ]
 }

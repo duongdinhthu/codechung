@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(90, 171, 171);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#wrapper{
+    background: transparent;
+    border: 3px solid ;
+    min-width: 400px;
+    min-height: 250px;
+    border-radius: 15px;
+}
+#header{
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    text-align: center;
+}
+#content{
+margin-left: 20px;
+    
+}
+.user{
+    border: none;
+    outline: none;
+    padding: 3px;
+    width: 70%;
+    min-width: 300px;
+}
+.password{
+    border: none;
+    outline: none;
+    min-width: 260px;
+}
+.submit{
+    border-radius: 3px;
+    margin-left: 50px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.use{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    border-bottom:  2px solid;
+    max-width: 300px;
+}
+.pas{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid;
+    margin-bottom: 25px;
+    max-width: 300px;
+}
+.pas i{
+    margin-right: 0px;
+    cursor: pointer;
+}
