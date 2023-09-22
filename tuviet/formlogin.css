@@ -1,26 +1,34 @@
 body{
     background: url(../tuviet/anh/isinhvien-897-p10.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #wrapper{
+    position: relative;
     display: flex;
-    min-height: 100vh;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    border-radius: 7px;
     /* Cân giữa hàng dọc  */
     align-items: center;
     /* căn chỉnh thàn phần trục ngang  */
+    border-radius: 8px;
+    overflow: hidden;
 }
 #form-login{
-    padding: 15px 30px 40px 30px;
-    /* khoảng cách từ từ phần tử đến viền form  */
-    border-radius: 20px;
-    /* bo tròn cạnh form  */
-    max-width: 400px;
-    background: #000000;
-    flex-grow: 1;
-    opacity: 0.6;
-    /* chỉnh độ trong suốt của nền backgroud  */
-    box-shadow: 3px 3px 4px 3px #fff;
+    position: absolute;
+    inset: 8px;
+    border-radius: 7px;
+    z-index: 10;
+    background-color: #5a5656;
+    
+   
 }
 .form-heading{
     color: #fff;
@@ -90,28 +98,60 @@ body{
 .form-submit:hover{
     border: 1px solid firebrick;
 }
-.d-flex{
-    display: flex;
+.ani1{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,transparent,#ffffff,#ffffff,#ffffff);
+    animation: autoanimation 6s linear infinite;
+    animation-delay: 0s;
+    transform-origin: bottom right;
+    z-index: 1;
 }
+.ani2{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,transparent,#000000,#000000,#000000);
+    animation: autoanimation 6s linear infinite;
+    animation-delay: -1.5s;
+    transform-origin: bottom right;
+    z-index: 1;
+}
+.ani3{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,transparent,#ffffff,#ffffff,#ffffff);
+    animation: autoanimation 6s linear infinite;
+    animation-delay: -3s;
+    transform-origin: bottom right;
+    z-index: 1;
+}
+.ani4{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,transparent,#000000,#000000,#000000);
+    animation: autoanimation 6s linear infinite;
+    animation-delay: -4.5s;
+    transform-origin: bottom right;
+    z-index: 1;
+}
+@keyframes autoanimation{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 
-.justify-content-between{
-    justify-content: space-between;
-}
-.align-items-center{
-    align-items: end;
-}
-#switch-mode{
-    border: 0;
-    outline: 0;
-    background: transparent;
-}
-#keyword{
-    margin-left: 20px;
-}
-.dark{
-    background-color: #f5f5f5;
-    color: #000;
-}
-body.dark#wrapper{
-    background-color: #333;
 }
