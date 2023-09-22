@@ -4,11 +4,8 @@ body{
     /* Tự chia tỷ lệ tới kích thước lớn nhất của chiều rộng hoặc chiều cao để phù hợp với vùng nội dung.
 
 Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% theo chiều cao, chiều rộng sẽ tự động chỉnh tỷ lệ cho phù hợp (auto).
-/* Ngược lại nếu chiều rộng lớn hơn chiều cao thì background sẽ chỉnh 100% theo chiều rộng, chiều cao sẽ tự động chỉnh tỷ lệ cho phù hợp (auto) */
-    background-position: 0px; 
+/* Ngược lại nếu chiều rộng lớn hơn chiều cao thì background sẽ chỉnh 100% theo chiều rộng, chiều cao sẽ tự động chỉnh tỷ lệ cho phù hợp (auto) */ 
     /* căn chỉnh ảnh nền lên xuống */
-}
-#wrapper{
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -16,18 +13,72 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     align-items: center;
     /* căn chỉnh các thành phần giữa trục ngang */
 }
+#wrapper{
+  position: relative;
+  width: 400px;
+  height: 300px;
+
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+.header1{
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(0deg,transparent, transparent,#030303,#030303,#030303);
+    animation: animation 6s infinite linear;
+    transform-origin: bottom right;
+    animation-delay: 0s;
+}
+.header2{
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(0deg,transparent, transparent,#ff0000,#fe0000,#fe0000);
+    animation: animation 6s infinite linear;
+    transform-origin: bottom right;
+    animation-delay: -1.5s;
+    
+}
+.header3{
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(0deg,transparent, transparent,#030303,#030303,#030303);
+    animation: animation 6s infinite linear;
+    transform-origin: bottom right;
+    animation-delay: -3s;
+}
+.header4{
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(0deg,transparent, transparent,#ff0000,#fe0000,#fe0000);
+    animation: animation 6s infinite linear;
+    transform-origin: bottom right;
+    animation-delay: -4.5s;
+}
 #form-login{
-    border-radius: 20px;
+    position: absolute;
+    border-radius: 10px;
     /* bo tròn khung login  */
-    max-width: 400px;
-    background: rgba(1, 1, 1, 0.8);
+    inset: 8px;
+    background-color: #676464;
     /* nền của form login */
     flex-grow: 1;
     /* lấy lại tỉ lệ đúng của form login 400px */
-    padding: 30px 30px 40px;
     /* căn chỉnh khoảng cách đến viền form login */
-    box-shadow: 0px 0xp 50px 50px rgba(250, 248, 248, 0.8);
-    /* chỉnh hào quang phát ra xung quanh formlogin */
+    
+
 }
 .form-heading{
     font-size: 25px;
@@ -39,12 +90,10 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     margin-bottom: 30px;
 }
 .form-group{
+
     border-bottom: 1px solid #fff;
     /* chạy dòng kẻ ngang liền mạch rộng 1px dưới đăng nhập và mật khẩu */
-    margin-top: 15px;
-    /* khoảng cách 2 dòng đăng nhập mật khẩu là 15px */
-    margin-bottom: 20px;
-    /* khoảng cách giữa nút đăng nhập lên dòng mật khẩu là 20px */
+    margin: 20px;
     display: flex;
     
 }
@@ -58,10 +107,11 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     color: #f5f5f5;
     /* màu khi nhập vào từ người dùng */
     flex-grow: 1;
+    margin-left: -7px;
    
 }
 #eye i{
-    padding-right: 0px;
+    padding-right: 2px;
     /* cho khoảng cách icon sang phải = 0  */
     cursor: pointer;
     /* thêm hình bàn tay  khi trỏ chuột vào mắt*/
@@ -100,6 +150,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     position: relative;
     border-radius: 5px;
     overflow: hidden;
+    margin-left: 15px;
 }
 .submit1{
     width: 100px;
@@ -113,6 +164,17 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     z-index: 1;
 }
 @keyframes animationBg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.form-group i{
+    margin-left:5px;
+}
+@keyframes animation{
     0% {
         transform: rotate(0deg);
     }
