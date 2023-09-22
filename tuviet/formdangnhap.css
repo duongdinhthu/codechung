@@ -73,16 +73,18 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
 }
 
 .form-submit{
-    background: transparent;
-    border: 1px solid #f5f5f5;
-    width: 100%;
+    position: absolute;
+    background-color: rgb(43, 40, 40);
+    border: none;
+    inset: 4px;
     text-transform: uppercase;
     /* viết hoa  */
-    padding: 6px 10px;
+    
     /* khoảng cách đến viền  */
     color: #f5f5f5;
     border-radius: 5px;
     /* bo tròn nút đăng nhập  */
+    z-index: 10;
 }
 .form-submit:hover{
     /* khi trỏ chuột vào  */
@@ -90,4 +92,31 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
 }
 .form-group i{
     padding-right: 10px;
+}
+.submit{
+   
+    width: 100px;
+    height: 60px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.submit1{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,transparent,#fff,#fff,#fff);
+    animation: animationBg 1s infinite linear;
+    transform-origin: bottom right;
+    z-index: 1;
+}
+@keyframes animationBg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
