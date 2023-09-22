@@ -20,6 +20,7 @@ body{
     /* căn chỉnh thàn phần trục ngang  */
     border-radius: 8px;
     overflow: hidden;
+    margin-top: 150px;
 }
 #form-login{
     position: absolute;
@@ -69,13 +70,18 @@ body{
 }
 .search-container{
     position: relative;
-    display: flex;
-    align-items: center;
+    align-items: left;
     box-sizing: border-box;
     background-color: #333;
     margin: 0 auto;
     padding: 10px;
-    background: #f5f5f5;
+    background: #868282;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.8;
+
 }
 #search-icon{
     font-size: 28px;
