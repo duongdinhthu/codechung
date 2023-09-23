@@ -1,17 +1,24 @@
 body{
-    background:url(../tuviet/anh/pngtree-gray-gear-technology-poster-background-material-image_122631.jpg);
+    
+}
+.background{
+    background:url(../anh/z4712497784907_54c5a43b5b31fe0166b78ee42ffcf51a.jpg);
     background-size: cover;
     /* Tự chia tỷ lệ tới kích thước lớn nhất của chiều rộng hoặc chiều cao để phù hợp với vùng nội dung.
-
 Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% theo chiều cao, chiều rộng sẽ tự động chỉnh tỷ lệ cho phù hợp (auto).
 /* Ngược lại nếu chiều rộng lớn hơn chiều cao thì background sẽ chỉnh 100% theo chiều rộng, chiều cao sẽ tự động chỉnh tỷ lệ cho phù hợp (auto) */ 
     /* căn chỉnh ảnh nền lên xuống */
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    animation: animateBg 6s linear infinite;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     /* Nói một cách dễ hiểu, giá trị này sẽ căn giữa các thành phần trong flexbox */
     align-items: center;
     /* căn chỉnh các thành phần giữa trục ngang */
+    animation: animateKi 6s linear infinite;
 }
 #wrapper{
   position: relative;
@@ -28,7 +35,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     left: -50%;
     width: 400px;
     height: 300px;
-    background: linear-gradient(0deg,transparent, transparent,#030303,#030303,#030303);
+    background: linear-gradient(0deg,transparent, transparent,#ff0000,#ff0000,#ff0000);
     animation: animation 6s infinite linear;
     transform-origin: bottom right;
     animation-delay: 0s;
@@ -51,7 +58,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     left: -50%;
     width: 400px;
     height: 300px;
-    background: linear-gradient(0deg,transparent, transparent,#030303,#030303,#030303);
+    background: linear-gradient(0deg,transparent, transparent,#ff0000,#ff0000,#ff0000);
     animation: animation 6s infinite linear;
     transform-origin: bottom right;
     animation-delay: -3s;
@@ -72,7 +79,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     border-radius: 10px;
     /* bo tròn khung login  */
     inset: 8px;
-    background-color: #676464;
+    background-color: #726f6f;
     /* nền của form login */
     flex-grow: 1;
     /* lấy lại tỉ lệ đúng của form login 400px */
@@ -180,5 +187,10 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+@keyframes animateKi {
+    100%{
+        filter: hue-rotate(360deg);
     }
 }
