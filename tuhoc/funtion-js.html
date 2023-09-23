@@ -19,10 +19,14 @@
             // tham số cho hàm funtion là năm sinh 
             // var nam_sinh = parseInt(window.prompt("Nhập năm sinh: ")) ;
             var tuoi = 2023 - nam_sinh;
-            document.write(tuoi, "<br>");
+            return tuoi;
+            // dùng hàm function bắt buộc phải trả về giá trị đã tính sau cùng để thực hiện câu lệnh khác. nếu không
+            // trả về thì nó sẽ trả về giá trị sai
         }
-        tinh_tuoi(2000);
-        tinh_tuoi(1994);
+        
+        
+        document.write(tinh_tuoi(2000), "<br>");
+           document.write(tinh_tuoi(1994), "<br>");
     </script>
 </body>
 </html>

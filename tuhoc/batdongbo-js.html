@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Nhập tên: <input id="input" value>
+    <br>
+    <button onclick="xin_chao()">Ok</button>
+    <!-- khi bấm vào ok sẽ gọi hàm funtion đã được gán thành xin_chao  -->
+    <div id="loi_chao">
+
+    </div>
+    <script>
+        var xin_chao = function(){
+            var a = document.getElementById("input").value;
+            //truy cập vào phần element có id là input thông qua lệnh document.getElementById
+            // lấy giá trị của id = input thì cần lưu giá trị của input = value 
+            // gán cả câu lệnh = biến a 
+            var loi_chao = "Xin chào " + a;
+            document.getElementById("loi_chao").innerHTML = loi_chao;
+        }
+    </script>
+    <script>
+        var thong_bao = function(){
+            document.getElementById("loi_chao").innerHTML += "Hết giờ<br>";
+        }
+        setTimeout(thong_bao , 3000)
+        //sau khi truy cập sẽ bắt đầu chạy lệnh set time out , sau 3 giây sẽ chạy thông báo
+        document.getElementById("loi_chao").innerHTML += "Xin chào<br>";
+    </script>
+</body>
+</html>
