@@ -11,12 +11,12 @@ body{
 
 }
 #wrapper{
-    border: 2px solid;
+    border: 1px solid;
     padding: 30px;
     border-radius: 8px;
     background-color: rgb(225, 224, 224);
     justify-content: center;
-    box-shadow: 2px 2px 2px 0px  ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2)  ;
 
 }
 #header h3{
@@ -24,6 +24,7 @@ body{
     font-size: 25px;
     padding-bottom: 20px;
     border-bottom: 1px solid;
+    margin-top: 0px;
 }
 form{
     border-bottom: 1px solid;
@@ -57,8 +58,14 @@ button{
     cursor: pointer;
     margin-top: 25px;
     width: 80px;
+    color: #fff;
 
 }
 button:hover{
 background-color: #2e458b;
+}
+#nut1{
+    color: #fff;
+    background-color: #3a57af;
+    padding: 5px;
 }
