@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function(){
             searchForm.style.display = 'block';
             // thì sẽ hiển thị form 
         }
+        //
     });
     document.addEventListener('click', function(even){
         // tạo sự kiện click vào 1 vùng bất kì gọi là even 
