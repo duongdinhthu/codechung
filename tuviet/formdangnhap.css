@@ -35,7 +35,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     left: -50%;
     width: 400px;
     height: 300px;
-    background: linear-gradient(0deg,transparent, transparent,#ff0000,#ff0000,#ff0000);
+    background: linear-gradient(0deg,transparent, transparent,#ff0000,#3700fe,#00ff11);
     animation: animation 6s infinite linear;
     transform-origin: bottom right;
     animation-delay: 0s;
@@ -46,7 +46,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     left: -50%;
     width: 400px;
     height: 300px;
-    background: linear-gradient(0deg,transparent, transparent,#ff0000,#fe0000,#fe0000);
+    background: linear-gradient(0deg,transparent, transparent,#ff0000,#3700fe,#00ff11);
     animation: animation 6s infinite linear;
     transform-origin: bottom right;
     animation-delay: -1.5s;
@@ -58,7 +58,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     left: -50%;
     width: 400px;
     height: 300px;
-    background: linear-gradient(0deg,transparent, transparent,#ff0000,#ff0000,#ff0000);
+    background: linear-gradient(0deg,transparent, transparent,#ff0000,#3700fe,#00ff11);
     animation: animation 6s infinite linear;
     transform-origin: bottom right;
     animation-delay: -3s;
@@ -69,7 +69,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     left: -50%;
     width: 400px;
     height: 300px;
-    background: linear-gradient(0deg,transparent, transparent,#ff0000,#fe0000,#fe0000);
+    background: linear-gradient(0deg,transparent, transparent,#ff0000,#3700fe,#00ff11);
     animation: animation 6s infinite linear;
     transform-origin: bottom right;
     animation-delay: -4.5s;
@@ -133,7 +133,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     position: absolute;
     background-color: rgb(43, 40, 40);
     border: none;
-    inset: 4px;
+    inset: 5px;
     text-transform: uppercase;
     /* viết hoa  */
     
@@ -142,6 +142,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     border-radius: 5px;
     /* bo tròn nút đăng nhập  */
     z-index: 10;
+    cursor: pointer;
 }
 .form-submit:hover{
     /* khi trỏ chuột vào  */
@@ -165,7 +166,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     position: absolute;
     top: -50%;
     left: -50%;
-    background: linear-gradient(0deg,transparent,transparent,#fff,#fff,#fff);
+    background: linear-gradient(0deg,transparent,transparent,#ff0000,#01ff80,#5100f4);
     animation: animationBg 1s infinite linear;
     transform-origin: bottom right;
     z-index: 1;

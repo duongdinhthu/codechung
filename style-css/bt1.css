@@ -122,4 +122,50 @@ body{
 #btn{
     display: flex;
 }
+/* định nghĩa độ phân giải màn hình - đa màn hình  */
+@media(max-width:900px){
+    #wrapper{
+        flex-direction: column;
+    }
+    .header{
+        width: 100%;
+    }
+    .image{
+        width: 70vh;
+    }
+    
+}
+@media(max-width:425px){
+    #wrapper{
+        flex-direction: column;
+    }
+    .header{
+        width: 100%;
+    }
+    .image{
+        width: 70vh;
+    }
+}
+@media(max-width:375px){
+    #wrapper{
+        flex-direction: column;
+    }
+    .header{
+        width: 100%;
+    }
+    .image{
+        width: 70vh;
+    }
+}
+@media(max-width:820px){
+    #wrapper{
+        flex-direction: column;
+    }
+    .header{
+        width: 100%;
+    }
+    .image{
+        width: 70vh;
+    }
+}
 
