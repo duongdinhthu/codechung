@@ -18,7 +18,7 @@ body{
     padding-top: 10px;
 }
 #header1{
-    background-color: rgb(193, 191, 191);
+    background-color: rgb(224, 222, 222);
 }
 #header2{
     text-align: center;
@@ -29,10 +29,17 @@ body{
     box-sizing: border-box;
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 100%;
+    width: 80%;
+    margin-left: 150px;
 }
 Strong{
     font-size: 20px;
+}
+#img{
+    padding: 10px;
+    background-color: #fff;
+    
+    margin: 5px;
 }
 
 
