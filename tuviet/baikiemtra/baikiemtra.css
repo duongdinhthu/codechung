@@ -14,9 +14,9 @@ body{
     border: 2px solid;
     padding: 30px;
     border-radius: 8px;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(225, 224, 224);
     justify-content: center;
-    box-shadow: 3px 3px ;
+    box-shadow: 2px 2px 2px 0px  ;
 
 }
 #header h3{
@@ -51,8 +51,14 @@ form{
     display: flex;
 }
 button{
-    height: 50px;
-    background-color: rgb(71, 71, 149);
+    height: 30px;
+    background-color: #3a57af;
     border-radius: 6px;
     cursor: pointer;
+    margin-top: 25px;
+    width: 80px;
+
+}
+button:hover{
+background-color: #2e458b;
 }
