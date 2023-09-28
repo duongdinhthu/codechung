@@ -19,6 +19,6 @@ $(document).ready(function(){
     });
 });
 
-$('.form-submit').click(function(){
+$('#form-submit').click(function(){
     alert('Đang đăng nhập, cứ bình tĩnh :D');
 })

@@ -131,7 +131,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
 
 }
 
-.form-submit{
+#form-submit{
     position: absolute;
     background-color: rgb(43, 40, 40);
     border: none;
