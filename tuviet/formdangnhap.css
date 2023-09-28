@@ -1,5 +1,7 @@
 body{
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .background{
     background:url(../anh/z4712497784907_54c5a43b5b31fe0166b78ee42ffcf51a.jpg);
@@ -194,4 +196,9 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     100%{
         filter: hue-rotate(360deg);
     }
+}
+#style{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
 }

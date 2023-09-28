@@ -1,0 +1,9 @@
+body{
+    background-image: url("../anh/z4712497784907_54c5a43b5b31fe0166b78ee42ffcf51a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: left;
+    /* xóa hết khoảng trắng bên trái  */
+    text-indent: 1000px;
+    /* căn chỉnh khoảng cách chữ trong phần tử  */
+}
