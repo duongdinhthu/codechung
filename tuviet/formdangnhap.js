@@ -22,3 +22,6 @@ $(document).ready(function(){
 $('#form-submit').click(function(){
     alert('Đang đăng nhập, cứ bình tĩnh :D');
 })
+document.getElementById("button1").style.display = "none";
+//thực hiện ẩn 1 phần tử của HTML
+document.getElementById("button1").style.display = "block";
