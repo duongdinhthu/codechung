@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #name{
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div>
+        <h1 id="name" onclick="myFunction()" onmouseenter="myFunction1()" onmouseleave="myFunction2">dương thứ</h1>
+    </div>
+    <script>
+       function myFunction(){
+        document.getElementById("name").style.background = ('colore','blue');
+       }
+       function myFunction1(){
+        document.getElementById("name").style.background = ('colore', 'red');
+       }
+       function myFunction2(){
+        document.getElementById("name").style.background = 'none';
+       }
+    </script>
+</body>
+</html>
