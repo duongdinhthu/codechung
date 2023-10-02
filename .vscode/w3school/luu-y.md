@@ -60,5 +60,14 @@ Kiểu dữ liệu đối tượng có thể chứa:
 3. Một ngày tháng
 
 
+   addEventListener là tạo 1 sự kiện với 2 tham số đc đưa vào . tham số thứ 1 là sự kiện chạy khi nào , tham số thứ 2 là hàm khi chạy sự kiện 
+   ví dụ :   addEventListener('click','myFunction())
+toUpperCase() là chuyển sang chữ viết hoa
+toLowerCase() là chuyển về chữ thường
+
+new Date() là thuộc tính lấy ngày giò hiện tại
+d.getFullYear() . hiển thị năm hiện tại
+d.getMonth() hiển thị tháng hiện tại
+
 
 
