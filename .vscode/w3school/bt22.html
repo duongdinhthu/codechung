@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Functions</h2>
+<p>Finding the largest number.</p>
+<p id="demo"></p>
+
+<script>
+function findMax() {
+  let max = -Infinity;
+//   khai báo biến max là 1 số bất kì hợp lệ 
+  for(let i = 0; i < arguments.length; i++) {
+    if (arguments[i] > max) {
+      max = arguments[i];
+    }
+  }
+  return max;
+} 
+// thực hiện tìm số lớn nhất trong 1 hàm 
+document.getElementById("demo").innerHTML = findMax(4, 5, 100);
+// truyền tham số vào để hàm tiến hành so sánh tìm số lớn nhất 
+</script>
+</body>
+</html>

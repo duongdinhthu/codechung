@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p>Setting a default value to a function parameter.</p>
+<p id="demo"></p>
+
+<script>
+function myFunction(x, y) {
+    // hàm function có 2 đối số là x và y 
+  if (y === undefined) {
+    // y là 1 đối số bất kì.Nếu một hàm được gọi mà thiếu đối số (ít hơn khai báo), thì các giá trị bị thiếu sẽ được đặt thành undefined.
+    y = 2;
+    // truyền tham số vào cho y = 2
+  }  
+  return x * y;
+//   trả về x *y 
+}
+document.getElementById("demo").innerHTML = myFunction(16);
+
+</script>
+
+</body>
+</html>
+
