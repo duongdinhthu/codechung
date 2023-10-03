@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tiêu đề</title>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<style>
+p { cursor: pointer; }
+.test { color: blue; }
+</style>
+<script>
+$(function(){
+    $('p').click(function(){
+        $(this).toggleClass('test');
+    })
+});
+</script>
+</head>
+
+<body>
+<p>Thành phần p</p>
+<p class="test">Thành phần p</p>
+<p>Thành phần p</p>
+<p>Thành phần p</p>
+</body>
+</html>
