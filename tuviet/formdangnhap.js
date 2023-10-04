@@ -25,4 +25,12 @@ $('#form-submit').click(function(){
 $('#button1').click(function(){
     var a = document.getElementById('body');
     a.classList.toggle('xoa');
+});
+$('#button2').click(function(){
+    var a = document.getElementById('form-login');
+    a.classList.toggle('xoa');
+})
+$('#button3').click(function(){
+    var a = document.getElementById('wrapper');
+    a.classList.toggle('xoa');
 })
