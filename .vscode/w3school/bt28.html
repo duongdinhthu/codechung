@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0;
+    }
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        background-color: #2980b9;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 8px 15px;
+        font-style: italic;
+    }
+    ul{
+        display: flex;
+        display: none;
+    }
+    
+    a:hover{
+        background-color: #e74c3c;
+    }
+    i{
+        padding: 10px;
+        font-size: 25px;
+        text-align: right;
+        cursor: pointer;
+    }
+    #toggle{
+        text-align: right;
+        background-color: gray;
+    }
+    .open{
+        display: block;
+        display: flex;
+    }
+</style>
+<body>
+    <div id="wrapper">
+     <div id="header">
+        <div id="toggle"><i class="fas fa-bars"></i></div>
+        <nav>
+            <ul id="main-menu">
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Sản phẩm</a></li>
+                <li><a href="">Dịch vụ</a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
+     </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="bt28.js"></script>
+</html>
