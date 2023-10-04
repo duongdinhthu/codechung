@@ -1,10 +1,13 @@
 body{
+    background:url(../anh/z4712497784907_54c5a43b5b31fe0166b78ee42ffcf51a.jpg);
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-size: cover;
 }
-.background{
+body .background{
     background:url(../anh/z4712497784907_54c5a43b5b31fe0166b78ee42ffcf51a.jpg);
+    display: flex;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -100,6 +103,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     text-align: center;
     /* căn chỉnh ra giữa chữ đăng nhập */
     margin-bottom: 30px;
+    color: #ff0000;
 }
 .form-group{
 
@@ -120,6 +124,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     /* màu khi nhập vào từ người dùng */
     flex-grow: 1;
     margin-left: -7px;
+   color: #ff0000;
    
 }
 #eye i{
@@ -148,6 +153,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     /* bo tròn nút đăng nhập  */
     z-index: 10;
     cursor: pointer;
+    color: #ff0000;
 }
 .form-submit:hover{
     /* khi trỏ chuột vào  */
@@ -171,7 +177,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     position: absolute;
     top: -50%;
     left: -50%;
-    background: linear-gradient(0deg,transparent,transparent,#ff0000,#01ff80,#5100f4);
+    background: linear-gradient(0deg,transparent,transparent,#ff0000,#ff0000,#ff0000);
     animation: animationBg 1s infinite linear;
     transform-origin: bottom right;
     z-index: 1;
@@ -217,6 +223,11 @@ button{
     box-shadow: 2px 2px 2px ;
 }
 .xoa{
-    display: none;
+   display: none;
+
     
 }
+::-webkit-input-placeholder {
+    font-style: italic;
+    /* chữ in nghiêng của placeholder   */
+  }
