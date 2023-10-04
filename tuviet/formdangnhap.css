@@ -26,7 +26,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     /* Nói một cách dễ hiểu, giá trị này sẽ căn giữa các thành phần trong flexbox */
     align-items: center;
     /* căn chỉnh các thành phần giữa trục ngang */
-    animation: animateKi 6s linear infinite;
+    animation: animateKi 4s infinite linear;
 }
 #wrapper{
   position: relative;
@@ -44,7 +44,7 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     width: 400px;
     height: 300px;
     background: linear-gradient(0deg,transparent, transparent,#ff0000,#3700fe,#00ff11);
-    animation: animation 6s infinite linear;
+    animation: animation 4s infinite linear;
     transform-origin: bottom right;
     animation-delay: 0s;
 }
@@ -55,9 +55,9 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     width: 400px;
     height: 300px;
     background: linear-gradient(0deg,transparent, transparent,#ff0000,#3700fe,#00ff11);
-    animation: animation 6s infinite linear;
+    animation: animation 4s infinite linear;
     transform-origin: bottom right;
-    animation-delay: -1.5s;
+    animation-delay: -1s;
     
 }
 .header3{
@@ -67,9 +67,9 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     width: 400px;
     height: 300px;
     background: linear-gradient(0deg,transparent, transparent,#ff0000,#3700fe,#00ff11);
-    animation: animation 6s infinite linear;
+    animation: animation 4s infinite linear;
     transform-origin: bottom right;
-    animation-delay: -3s;
+    animation-delay: -2s;
 }
 .header4{
     position: absolute;
@@ -78,9 +78,9 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
     width: 400px;
     height: 300px;
     background: linear-gradient(0deg,transparent, transparent,#ff0000,#3700fe,#00ff11);
-    animation: animation 6s infinite linear;
+    animation: animation 4s infinite linear;
     transform-origin: bottom right;
-    animation-delay: -4.5s;
+    animation-delay: -3s;
 }
 #form-login{
     position: absolute;
