@@ -32,5 +32,5 @@ $('#button2').click(function(){
 })
 $('#button3').click(function(){
     var a = document.getElementById('wrapper');
-    a.classList.toggle('xoa');
+    a.classList.toggle('xoa',);
 })

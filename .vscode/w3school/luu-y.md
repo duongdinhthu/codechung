@@ -69,5 +69,5 @@ new Date() là thuộc tính lấy ngày giò hiện tại
 d.getFullYear() . hiển thị năm hiện tại
 d.getMonth() hiển thị tháng hiện tại
 
-
+reachjs. bootrap( học kĩ)
 
