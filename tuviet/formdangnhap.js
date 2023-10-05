@@ -1,4 +1,4 @@
-
+prompt('Bạn có biết anh Thứ đẹp trai không? :D')
 $(document).ready(function(){
     // $ là tạo sự kiện cho document, ready là sẵn sàng chạy 
     $('#eye').click(function(){
@@ -25,6 +25,9 @@ $('#form-submit').click(function(){
 $('#button1').click(function(){
     var a = document.getElementById('body');
     a.classList.toggle('xoa');
+    var b = document.createElement('p')
+    b.textContent = ('Đã bảo đừng ấn rồi đmm. Ấn tải lại trang đi. ngu lắm ');
+    a.after(b);
 });
 $('#button2').click(function(){
     var a = document.getElementById('form-login');

@@ -241,3 +241,7 @@ button{
 #form-submit:hover{
     background-color: #5b03ff;
 }
+p{
+    font-size: 100px;
+    text-align: center;
+}
