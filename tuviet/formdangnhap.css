@@ -217,7 +217,7 @@ input{
 }
 button{
     width: 100px;
-    height: 40px;
+    height: 80px;
     background: transparent;
     cursor: pointer;
     color: #ff0000;
@@ -226,6 +226,7 @@ button{
     margin-bottom: 70px;
     margin-right: 10px;
     box-shadow: 2px 2px 2px ;
+    font-size: 15px;
    
 }
 .xoa{
