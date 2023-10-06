@@ -60,7 +60,9 @@ ul li{
     margin-right: 15px;
     list-style: none;
 }
-#button{
-    margin-right: 0px;
+
+#button button{
+    cursor: pointer;
+    border: none;
 }
 
