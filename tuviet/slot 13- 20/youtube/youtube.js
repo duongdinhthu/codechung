@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",function(event){
-    var inputSearch = document.getElementById('keyword');
+    var inputSearch = document.getElementById("keyword");
     inputSearch.onkeydown = function(event){
         if(event.keyCode == 13){
             loadVideo(this.value);
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded",function(event){
     }
     loadVideo("Đen vâu");
 });
-var modal = document.getElementById('modal');
+var modal = document.getElementById("modal");
 var span = document.getElementsByClassName('close')[0];
 var videoFrame = document.getElementById('video-frame');
 span.onclick = function(){

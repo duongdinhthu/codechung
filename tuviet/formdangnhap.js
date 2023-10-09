@@ -29,6 +29,7 @@ $('#button1').click(function(){
     b.textContent = ('Đã bảo đừng ấn rồi đmm. Ấn tải lại trang đi. ngu lắm ');
     a.after(b);
 });
+
 $('#button2').click(function(){
     var a = document.getElementById('form-login');
     a.classList.toggle('xoa');
