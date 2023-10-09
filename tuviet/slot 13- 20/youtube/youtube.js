@@ -19,7 +19,7 @@ window.onclick = function(event){
     }
 }
 function loadVideo(keyword){
-    var YOUTUBE_API = "https://content.googleapis.com/youtube/v3/search?q=%22%20+%20keyword%20+%20%22&type=video&maxResults=20&part=snippet&key=AIzaSyBWP0l7OyCzlHsSZxns-5wxroD2nVpvUJE";
+    var YOUTUBE_API = "https://content.googleapis.com/youtube/v3/search?q=" + keyword + "&type=video&maxResults=9&part=snippet&key=AIzaSyCQRmo_DE1ATUU-kzEFmz_s0BjnKSz_msU";
     var xhr = new XMLHttpRequest();
     xhr.open("GET",YOUTUBE_API,true);
     xhr.onreadystatechange = function(){
