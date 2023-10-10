@@ -91,6 +91,7 @@ hr{
     width: 98%; 
     border: none;
     outline: none;
+    margin-left: 7px;
 }
 #phone{
     display: flex;
