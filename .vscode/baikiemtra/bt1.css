@@ -43,6 +43,9 @@ body{
 #button4{
     background-color: #3F51B5;
 }
+#button3 img, #button4 img{
+    padding-left: 50px;
+}
 
 
 #btn1,#btn2{
@@ -52,6 +55,7 @@ body{
     background-color: transparent;
     font-size: 15px;
     margin-left: 10px;
+   margin-top: 6px;
     
     
 }
