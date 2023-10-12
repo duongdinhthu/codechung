@@ -98,7 +98,7 @@ video.title{
     height: 30px;
     border-radius: 5px;
 }
-.modal{
+.model{
     display: none;
     position: fixed;
     z-index: 1;
@@ -111,7 +111,7 @@ video.title{
     background-color: rgb(0, 0, 0);
     background-color: rgba(0,0,0,0.9);
 }
-.modal-content{
+.model-content{
     margin: auto;
     display: block;
     width: 80%;
@@ -127,7 +127,7 @@ video.title{
     padding: 10px 0;
     height: 150px;
 }
-.modal-content,#caption{
+.model-content,#caption{
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -146,7 +146,7 @@ video.title{
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #000000;
+    color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
@@ -159,7 +159,7 @@ video.title{
     cursor: pointer;
 }
 @media only screen and(max-width: 700px){
-    .modal-content{
+    .model-content{
         width: 100%;
     }
 }
