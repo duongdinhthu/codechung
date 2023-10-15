@@ -1,0 +1,48 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("https://anima-uploads.s3.amazonaws.com/59dfb1260b1fed000d431d8f/Radomir Tinkov - Gilroy-ExtraBold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Chronicle Display-Semibold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/61273f72ed6fdcaf56d0c0a9/fonts/chronicle-display-semibold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/59dfb1260b1fed000d431d8f/Radomir Tinkov - Gilroy-Bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Chronicle Display-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5909ccbf5cf91f000d098234/Chronicle Display Bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/635131b13f27792e46569104/fonts/gilroy-medium.ttf")
+    format("truetype");
+}

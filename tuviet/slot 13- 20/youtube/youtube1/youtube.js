@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",function(event){
             loadVideo(this.value);
         }
     }
-    loadVideo("zenbonsakura");
+    loadVideo("senbonzakura");
 });
 var model = document.getElementById("myModel");
 var span = document.getElementsByClassName('close')[0];

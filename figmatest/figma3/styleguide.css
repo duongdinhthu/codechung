@@ -1,0 +1,29 @@
+:root {
+  --primary-main: rgba(156, 39, 176, 1);
+  --primary-light: rgba(225, 190, 231, 1);
+  --primary-dark: rgba(106, 27, 154, 1);
+  --secondary-main: rgba(255, 160, 0, 1);
+  --secondary-light: rgba(255, 236, 179, 1);
+  --secondary-dark: rgba(255, 111, 0, 1);
+  --accent-main: rgba(103, 58, 183, 1);
+  --accent-light: rgba(209, 196, 233, 1);
+  --accent-dark: rgba(69, 39, 160, 1);
+  --regular-font-family: "Montserrat-Regular", Helvetica;
+  --regular-font-weight: 400;
+  --regular-font-size: 20px;
+  --regular-letter-spacing: 0px;
+  --regular-line-height: normal;
+  --regular-font-style: normal;
+  --medium-font-family: "Montserrat-Medium", Helvetica;
+  --medium-font-weight: 500;
+  --medium-font-size: 20px;
+  --medium-letter-spacing: 0px;
+  --medium-line-height: normal;
+  --medium-font-style: normal;
+  --semi-bold-font-family: "Montserrat-SemiBold", Helvetica;
+  --semi-bold-font-weight: 600;
+  --semi-bold-font-size: 20px;
+  --semi-bold-letter-spacing: 0px;
+  --semi-bold-line-height: normal;
+  --semi-bold-font-style: normal;
+}

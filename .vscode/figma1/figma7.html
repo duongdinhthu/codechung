@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    import * as React from "react";
+
+export default function MyComponent() {
+  return (
+    <div className="bg-white flex w-[375px] flex-col rounded-[36px]">
+      <div className="justify-between items-start self-center flex w-[327px] max-w-full gap-5 mt-6 px-5 max-md:justify-center">
+        <img
+          loading="lazy"
+          srcSet="..."
+          className="aspect-square object-cover object-center w-5 overflow-hidden shrink-0"
+        />
+        <img
+          loading="lazy"
+          srcSet="..."
+          className="aspect-[6] object-cover object-center w-[120px] overflow-hidden shrink-0"
+        />
+        <img
+          loading="lazy"
+          srcSet="..."
+          className="aspect-square object-cover object-center w-5 overflow-hidden shrink-0"
+        />
+      </div>
+      <div className="text-black text-center text-5xl leading-[57.6px] tracking-tight self-center w-[313px] max-w-full -ml-1.5 mt-7 max-md:text-4xl">
+        My cart
+      </div>
+      <div className="items-start self-center flex w-[327px] max-w-full flex-col mt-6">
+        <div className="items-start self-stretch flex justify-between gap-4 px-5">
+          <img
+            loading="lazy"
+            srcSet="..."
+            className="aspect-square object-cover object-center w-[124px] overflow-hidden shrink-0"
+          />
+          <div className="justify-between items-start self-stretch flex flex-col">
+            <div className="items-start flex w-[187px] max-w-full flex-col">
+              <div className="self-stretch text-black text-base font-medium leading-6 tracking-normal w-full">
+                Hellebore
+              </div>
+              <div className="self-stretch text-black text-base leading-6 tracking-normal w-full">
+                $0.89/lb
+              </div>
+            </div>
+            <div className="items-start flex w-[126px] max-w-full gap-3 mt-10">
+              <div className="text-black text-center text-base leading-6 tracking-normal self-stretch w-[58px] justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] max-w-full px-2 py-1 rounded-2xl border-solid">
+                2
+              </div>
+              <div className="items-start self-center flex gap-2 my-auto">
+                <div className="justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] self-stretch flex w-6 max-w-full flex-col p-0.5 rounded-2xl border-solid">
+                  <img
+                    loading="lazy"
+                    srcSet="..."
+                    className="aspect-square object-cover object-center w-5 overflow-hidden shrink-0"
+                  />
+                </div>
+                <div className="justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] self-stretch flex w-6 max-w-full flex-col p-0.5 rounded-2xl border-solid">
+                  <img
+                    loading="lazy"
+                    srcSet="..."
+                    className="aspect-square object-cover object-center w-5 overflow-hidden shrink-0"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="items-start self-stretch flex justify-between gap-4 mt-6 px-5">
+          <img
+            loading="lazy"
+            srcSet="..."
+            className="aspect-square object-cover object-center w-[124px] overflow-hidden shrink-0"
+          />
+          <div className="justify-between items-start self-stretch flex flex-col">
+            <div className="items-start flex w-[187px] max-w-full flex-col">
+              <div className="self-stretch text-black text-base font-medium leading-6 tracking-normal w-full">
+                Daisy
+              </div>
+              <div className="self-stretch text-black text-base leading-6 tracking-normal w-full">
+                $8.99/lb
+              </div>
+            </div>
+            <div className="items-start flex w-[126px] max-w-full gap-3 mt-10">
+              <div className="text-black text-center text-base leading-6 tracking-normal self-stretch w-[58px] justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] max-w-full px-2 py-1 rounded-2xl border-solid">
+                1
+              </div>
+              <div className="items-start self-center flex gap-2 my-auto">
+                <div className="justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] self-stretch flex w-6 max-w-full flex-col p-0.5 rounded-2xl border-solid">
+                  <img
+                    loading="lazy"
+                    srcSet="..."
+                    className="aspect-square object-cover object-center w-5 overflow-hidden shrink-0"
+                  />
+                </div>
+                <div className="justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] self-stretch flex w-6 max-w-full flex-col p-0.5 rounded-2xl border-solid">
+                  <img
+                    loading="lazy"
+                    srcSet="..."
+                    className="aspect-square object-cover object-center w-5 overflow-hidden shrink-0"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="items-start self-stretch flex justify-between gap-4 mt-6 px-5">
+          <img
+            loading="lazy"
+            srcSet="..."
+            className="aspect-[1.19] object-cover object-center w-[124px] overflow-hidden shrink-0"
+          />
+          <div className="justify-between items-start self-stretch flex flex-col">
+            <div className="items-start flex w-[187px] max-w-full flex-col">
+              <div className="self-stretch text-black text-base font-medium leading-6 tracking-normal w-full">
+                Tulip
+              </div>
+              <div className="self-stretch text-black text-base leading-6 tracking-normal w-full">
+                $1.99/ea
+              </div>
+            </div>
+            <div className="items-start flex w-[126px] max-w-full gap-3 mt-10">
+              <div className="text-black text-center text-base leading-6 tracking-normal w-[58px] justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] max-w-full pt-0.5 px-2 rounded-2xl border-solid">
+                1
+              </div>
+              <div className="items-start flex gap-2 mt-1">
+                <div className="justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] self-stretch flex w-6 h-2 flex-col rounded-2xl border-solid" />
+                <div className="justify-center items-center border border-[color:var(--world-peas-compost-base,#000)] self-stretch flex w-6 h-2 flex-col rounded-2xl border-solid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="items-start bg-white self-stretch flex w-full grow flex-col mb-px pb-6 px-5">
+        <div className="self-stretch bg-black flex w-full h-px flex-col mx-1" />
+        <div className="justify-between items-start self-stretch flex w-full gap-5 mt-6 mx-1">
+          <div className="text-black text-base leading-6 tracking-normal self-stretch">
+            Subtotal
+          </div>
+          <div className="text-black text-right text-base font-medium leading-6 tracking-normal self-stretch">
+            $29.76
+          </div>
+        </div>
+        
+        <div className="justify-between items-start self-stretch bg-black flex w-full gap-5 mt-6 mx-1 px-5 py-3 rounded-xl">
+          <div className="text-white text-base leading-6 tracking-normal self-stretch w-[154px]">
+            Schedule a pick-up
+          </div>
+          <img
+            loading="lazy"
+            srcSet="..."
+            className="aspect-square object-cover object-center w-5 overflow-hidden self-center shrink-0 my-auto"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+</body>
+</html>

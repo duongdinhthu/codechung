@@ -1,0 +1,1505 @@
+.trafalgar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.trafalgar .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1600px;
+  height: 5870px;
+  position: relative;
+}
+
+.trafalgar .footer {
+  position: absolute;
+  width: 1638px;
+  height: 523px;
+  top: 5366px;
+  left: -19px;
+  background-color: transparent;
+}
+
+.trafalgar .overlap {
+  position: relative;
+  width: 1623px;
+  height: 504px;
+  left: 19px;
+}
+
+.trafalgar .element {
+  position: absolute;
+  width: 132px;
+  height: 115px;
+  top: 0;
+  left: 1377px;
+}
+
+.trafalgar .bg {
+  width: 1600px;
+  height: 432px;
+  top: 72px;
+  background: linear-gradient(180deg, rgb(103, 195, 243) 0%, rgb(90, 152, 242) 100%);
+  position: absolute;
+  left: 0;
+}
+
+.trafalgar .div-2 {
+  position: absolute;
+  width: 399px;
+  height: 201px;
+  top: 190px;
+  left: 190px;
+}
+
+.trafalgar .text-wrapper {
+  left: 54px;
+  color: #ffffff;
+  position: absolute;
+  top: 6px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trafalgar .overlap-group {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 0;
+  left: 1px;
+  background-color: #ffffff;
+  border-radius: 20.5px;
+}
+
+.trafalgar .text-wrapper-2 {
+  color: #5b9bf3;
+  position: absolute;
+  width: 17px;
+  top: 5px;
+  left: 13px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trafalgar .trafalgar-provides {
+  position: absolute;
+  width: 391px;
+  top: 58px;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .p {
+  position: absolute;
+  width: 391px;
+  top: 173px;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .company {
+  position: absolute;
+  width: 395px;
+  height: 214px;
+  top: 181px;
+  left: 726px;
+}
+
+.trafalgar .text-wrapper-3 {
+  position: absolute;
+  width: 391px;
+  top: 62px;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 38px;
+}
+
+.trafalgar .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.trafalgar .region {
+  position: absolute;
+  width: 395px;
+  height: 214px;
+  top: 181px;
+  left: 995px;
+}
+
+.trafalgar .help {
+  position: absolute;
+  width: 395px;
+  height: 214px;
+  top: 181px;
+  left: 1228px;
+}
+
+.trafalgar .img {
+  position: absolute;
+  width: 113px;
+  height: 96px;
+  top: 408px;
+  left: 0;
+}
+
+.trafalgar .our-lates-article {
+  position: absolute;
+  width: 1785px;
+  height: 810px;
+  top: 4427px;
+  left: 191px;
+}
+
+.trafalgar .overlap-2 {
+  position: relative;
+  width: 1409px;
+  height: 810px;
+}
+
+.trafalgar .overlap-3 {
+  position: absolute;
+  width: 1031px;
+  height: 792px;
+  top: 0;
+  left: 378px;
+}
+
+.trafalgar .overlap-4 {
+  position: absolute;
+  width: 590px;
+  height: 792px;
+  top: 0;
+  left: 441px;
+}
+
+.trafalgar .element-2 {
+  position: absolute;
+  width: 547px;
+  height: 792px;
+  top: 0;
+  left: 43px;
+}
+
+.trafalgar .article {
+  width: 356px;
+  top: 169px;
+  left: 0;
+  position: absolute;
+  height: 512px;
+}
+
+.trafalgar .overlap-5 {
+  position: relative;
+  width: 350px;
+  height: 512px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: var(--drop-shadow);
+}
+
+.trafalgar .overlap-6 {
+  position: absolute;
+  width: 266px;
+  height: 28px;
+  top: 449px;
+  left: 32px;
+}
+
+.trafalgar .frame {
+  position: absolute;
+  width: 14px;
+  height: 9px;
+  top: 11px;
+  left: 102px;
+}
+
+.trafalgar .text-wrapper-5 {
+  position: absolute;
+  width: 266px;
+  top: 0;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 600;
+  color: #3f88ed;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .mask-group-wrapper {
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.trafalgar .mask-group {
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  top: 0;
+  left: 0;
+}
+
+.trafalgar .natural-care-for {
+  position: absolute;
+  top: 264px;
+  left: 32px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.trafalgar .a-healthy-lifestyle {
+  position: absolute;
+  width: 266px;
+  top: 340px;
+  left: 32px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .text {
+  position: absolute;
+  width: 464px;
+  height: 84px;
+  top: 6px;
+  left: 0;
+}
+
+.trafalgar .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.trafalgar .rectangle {
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  top: 82px;
+  left: 203px;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.trafalgar .btn {
+  height: 60px;
+  top: 750px;
+  left: 509px;
+  position: absolute;
+  width: 202px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.trafalgar .overlap-group-2 {
+  position: relative;
+  width: 200px;
+  height: 60px;
+}
+
+.trafalgar .rectangle-2 {
+  position: absolute;
+  width: 200px;
+  height: 56px;
+  top: 3px;
+  left: 0;
+  border-radius: 55px;
+  border: 1.4px solid;
+  border-color: #458ff6;
+}
+
+.trafalgar .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #458ff6;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.trafalgar .overlap-7 {
+  position: absolute;
+  width: 405px;
+  height: 554px;
+  top: 127px;
+  left: 0;
+}
+
+.trafalgar .element-3 {
+  position: absolute;
+  width: 132px;
+  height: 115px;
+  top: 0;
+  left: 0;
+}
+
+.trafalgar .overlap-wrapper {
+  width: 356px;
+  top: 42px;
+  left: 49px;
+  position: absolute;
+  height: 512px;
+}
+
+.trafalgar .text-wrapper-8 {
+  position: absolute;
+  top: 264px;
+  left: 33px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.trafalgar .text-wrapper-9 {
+  position: absolute;
+  width: 266px;
+  top: 340px;
+  left: 33px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .overlap-8 {
+  position: absolute;
+  width: 266px;
+  height: 28px;
+  top: 449px;
+  left: 33px;
+}
+
+.trafalgar .overlap-group-wrapper {
+  width: 357px;
+  top: 169px;
+  left: 433px;
+  position: absolute;
+  height: 512px;
+}
+
+.trafalgar .overlap-9 {
+  position: relative;
+  width: 351px;
+  height: 512px;
+}
+
+.trafalgar .rectangle-3 {
+  position: absolute;
+  width: 350px;
+  height: 512px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: var(--drop-shadow);
+}
+
+.trafalgar .rectangle-4 {
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  top: 0;
+  left: 1px;
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.trafalgar .mask-group-2 {
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  top: 0;
+  left: 1px;
+}
+
+.trafalgar .frame-2 {
+  position: absolute;
+  width: 14px;
+  height: 9px;
+  top: 460px;
+  left: 134px;
+}
+
+.trafalgar .text-wrapper-10 {
+  position: absolute;
+  width: 266px;
+  top: 449px;
+  left: 33px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 600;
+  color: #3f88ed;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .testimonials {
+  position: absolute;
+  width: 1220px;
+  height: 502px;
+  top: 3709px;
+  left: 190px;
+}
+
+.trafalgar .group {
+  position: absolute;
+  width: 1228px;
+  height: 440px;
+  top: 0;
+  left: 0;
+}
+
+.trafalgar .overlap-group-3 {
+  position: relative;
+  width: 1220px;
+  height: 440px;
+}
+
+.trafalgar .group-2 {
+  position: absolute;
+  width: 132px;
+  height: 115px;
+  top: 286px;
+  left: 0;
+}
+
+.trafalgar .rectangle-5 {
+  position: absolute;
+  width: 1120px;
+  height: 425px;
+  top: 15px;
+  left: 52px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgb(103, 195, 243) 0%, rgb(90, 152, 242) 100%);
+}
+
+.trafalgar .group-3 {
+  position: absolute;
+  width: 132px;
+  height: 115px;
+  top: 0;
+  left: 1088px;
+}
+
+.trafalgar .our-dedicated {
+  top: 231px;
+  left: 634px;
+  font-weight: 400;
+  color: #ffffffe6;
+  font-size: 19px;
+  position: absolute;
+  width: 420px;
+  font-family: "Mulish", Helvetica;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.trafalgar .text-wrapper-11 {
+  position: absolute;
+  top: 79px;
+  left: 353px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.trafalgar .text-wrapper-12 {
+  position: absolute;
+  top: 251px;
+  left: 340px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.trafalgar .text-wrapper-13 {
+  position: absolute;
+  top: 283px;
+  left: 340px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 400;
+  color: #ffffffd9;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 48px;
+  white-space: nowrap;
+}
+
+.trafalgar .rectangle-6 {
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  top: 152px;
+  left: 586px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.trafalgar .img-wrapper {
+  position: absolute;
+  width: 141px;
+  height: 141px;
+  top: 220px;
+  left: 170px;
+  background-color: #ffffff;
+  border-radius: 70.5px;
+}
+
+.trafalgar .mask-group-3 {
+  position: absolute;
+  width: 133px;
+  height: 133px;
+  top: 4px;
+  left: 4px;
+}
+
+.trafalgar .arrow-nav {
+  position: absolute;
+  width: 336px;
+  height: 20px;
+  top: 482px;
+  left: 443px;
+}
+
+.trafalgar .frame-3 {
+  position: absolute;
+  width: 31px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.trafalgar .frame-4 {
+  position: absolute;
+  width: 31px;
+  height: 20px;
+  top: 0;
+  left: 305px;
+}
+
+.trafalgar .slider {
+  position: absolute;
+  width: 94px;
+  height: 10px;
+  top: 5px;
+  left: 121px;
+}
+
+.trafalgar .ellipse {
+  left: 28px;
+  opacity: 0.3;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  background-color: #5b9bf3;
+  border-radius: 5px;
+}
+
+.trafalgar .ellipse-2 {
+  left: 56px;
+  opacity: 0.3;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  background-color: #5b9bf3;
+  border-radius: 5px;
+}
+
+.trafalgar .ellipse-3 {
+  left: 84px;
+  opacity: 0.3;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  background-color: #5b9bf3;
+  border-radius: 5px;
+}
+
+.trafalgar .ellipse-4 {
+  left: 0;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  background-color: #5b9bf3;
+  border-radius: 5px;
+}
+
+.trafalgar .overlap-10 {
+  position: absolute;
+  width: 1511px;
+  height: 1140px;
+  top: 2318px;
+  left: 135px;
+}
+
+.trafalgar .download-our-mobile {
+  position: absolute;
+  width: 1366px;
+  height: 675px;
+  top: 465px;
+  left: 145px;
+}
+
+.trafalgar .element-4 {
+  position: absolute;
+  width: 86px;
+  height: 115px;
+  top: 0;
+  left: 1234px;
+}
+
+.trafalgar .img-2 {
+  position: absolute;
+  width: 665px;
+  height: 434px;
+  top: 241px;
+  left: 491px;
+  object-fit: cover;
+}
+
+.trafalgar .text-2 {
+  position: absolute;
+  width: 424px;
+  height: 375px;
+  top: 277px;
+  left: 0;
+}
+
+.trafalgar .div-wrapper {
+  height: 56px;
+  top: 319px;
+  left: 0;
+  position: absolute;
+  width: 202px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.trafalgar .overlap-group-4 {
+  position: relative;
+  width: 200px;
+  height: 56px;
+  border-radius: 55px;
+  border: 1.4px solid;
+  border-color: #458ff6;
+}
+
+.trafalgar .text-wrapper-14 {
+  position: absolute;
+  width: 89px;
+  height: 13px;
+  top: 20px;
+  left: 42px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #458ff6;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.trafalgar .vector {
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  top: 19px;
+  left: 145px;
+}
+
+.trafalgar .download-our-mobile-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.trafalgar .our-dedicated-2 {
+  top: 159px;
+  left: 0;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 18px;
+  position: absolute;
+  width: 420px;
+  font-family: "Mulish", Helvetica;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.trafalgar .rectangle-7 {
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  top: 126px;
+  left: 2px;
+  background-color: #000000;
+  border-radius: 6px;
+}
+
+.trafalgar .leading-healthcare {
+  position: absolute;
+  width: 1273px;
+  height: 477px;
+  top: 0;
+  left: 0;
+}
+
+.trafalgar .text-3 {
+  position: absolute;
+  width: 490px;
+  height: 388px;
+  top: 57px;
+  left: 787px;
+}
+
+.trafalgar .button {
+  height: 60px;
+  top: 328px;
+  left: 0;
+  position: absolute;
+  width: 202px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.trafalgar .text-wrapper-15 {
+  position: absolute;
+  top: 0;
+  left: 51px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #458ff6;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.trafalgar .text-wrapper-16 {
+  position: absolute;
+  width: 481px;
+  top: 0;
+  left: 5px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 56px;
+}
+
+.trafalgar .trafalgar-provides-2 {
+  width: 450px;
+  top: 171px;
+  left: 5px;
+  font-size: 18px;
+  line-height: 30px;
+  position: absolute;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  letter-spacing: 0;
+}
+
+.trafalgar .rectangle-8 {
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  top: 138px;
+  left: 5px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+.trafalgar .img-3 {
+  position: absolute;
+  width: 650px;
+  height: 477px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.trafalgar .our-services {
+  position: absolute;
+  width: 1676px;
+  height: 1133px;
+  top: 965px;
+  left: -266px;
+}
+
+.trafalgar .btn-2 {
+  height: 60px;
+  top: 1073px;
+  left: 966px;
+  position: absolute;
+  width: 202px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.trafalgar .overlap-11 {
+  position: absolute;
+  width: 1410px;
+  height: 1004px;
+  top: 0;
+  left: 266px;
+}
+
+.trafalgar .bg-element {
+  width: 853px;
+  height: 968px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.trafalgar .element-5 {
+  position: absolute;
+  width: 132px;
+  height: 115px;
+  top: 546px;
+  left: 1278px;
+}
+
+.trafalgar .text-4 {
+  position: absolute;
+  width: 956px;
+  height: 177px;
+  top: 2px;
+  left: 323px;
+}
+
+.trafalgar .text-wrapper-17 {
+  position: absolute;
+  top: 0;
+  left: 372px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.trafalgar .text-wrapper-18 {
+  position: absolute;
+  width: 952px;
+  top: 117px;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.trafalgar .rectangle-9 {
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  top: 82px;
+  left: 449px;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.trafalgar .services {
+  position: absolute;
+  width: 1120px;
+  height: 745px;
+  top: 259px;
+  left: 240px;
+}
+
+.trafalgar .search-doctor {
+  position: absolute;
+  width: 354px;
+  height: 354px;
+  top: 0;
+  left: 0;
+}
+
+.trafalgar .overlap-group-5 {
+  position: relative;
+  width: 350px;
+  height: 354px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: var(--drop-shadow);
+}
+
+.trafalgar .text-wrapper-19 {
+  position: absolute;
+  top: 166px;
+  left: 39px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.trafalgar .text-wrapper-20 {
+  position: absolute;
+  width: 266px;
+  top: 223px;
+  left: 39px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .frame-5 {
+  position: absolute;
+  width: 92px;
+  height: 90px;
+  top: 54px;
+  left: 37px;
+}
+
+.trafalgar .consultation {
+  position: absolute;
+  width: 350px;
+  height: 354px;
+  top: 0;
+  left: 770px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: var(--drop-shadow);
+}
+
+.trafalgar .group-4 {
+  position: relative;
+  width: 266px;
+  height: 260px;
+  top: 47px;
+  left: 38px;
+}
+
+.trafalgar .text-wrapper-21 {
+  position: absolute;
+  top: 119px;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.trafalgar .frame-6 {
+  position: absolute;
+  width: 67px;
+  height: 95px;
+  top: 0;
+  left: 0;
+}
+
+.trafalgar .text-wrapper-22 {
+  position: absolute;
+  width: 261px;
+  top: 176px;
+  left: 1px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .online-pharmacy {
+  position: absolute;
+  width: 350px;
+  height: 354px;
+  top: 0;
+  left: 384px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: var(--drop-shadow);
+}
+
+.trafalgar .group-5 {
+  position: relative;
+  width: 266px;
+  height: 249px;
+  top: 58px;
+  left: 36px;
+}
+
+.trafalgar .text-wrapper-23 {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.trafalgar .buy-your-medicines {
+  position: absolute;
+  width: 261px;
+  top: 165px;
+  left: 1px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .frame-7 {
+  position: absolute;
+  width: 62px;
+  height: 85px;
+  top: 4px;
+  left: 1px;
+}
+
+.trafalgar .detail-info {
+  position: absolute;
+  width: 350px;
+  height: 354px;
+  top: 391px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: var(--drop-shadow);
+}
+
+.trafalgar .group-6 {
+  position: relative;
+  width: 266px;
+  height: 261px;
+  top: 46px;
+  left: 38px;
+}
+
+.trafalgar .text-wrapper-24 {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.trafalgar .frame-8 {
+  position: absolute;
+  width: 67px;
+  height: 95px;
+  top: 0;
+  left: 2px;
+}
+
+.trafalgar .text-wrapper-25 {
+  position: absolute;
+  width: 261px;
+  top: 177px;
+  left: 1px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .tracking {
+  position: absolute;
+  width: 354px;
+  height: 354px;
+  top: 391px;
+  left: 770px;
+}
+
+.trafalgar .frame-9 {
+  position: absolute;
+  width: 69px;
+  height: 95px;
+  top: 52px;
+  left: 38px;
+}
+
+.trafalgar .text-wrapper-26 {
+  position: absolute;
+  top: 166px;
+  left: 38px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.trafalgar .text-wrapper-27 {
+  position: absolute;
+  width: 261px;
+  top: 223px;
+  left: 39px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .emergency-care {
+  position: absolute;
+  width: 350px;
+  height: 354px;
+  top: 391px;
+  left: 384px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: var(--drop-shadow);
+}
+
+.trafalgar .group-7 {
+  position: relative;
+  width: 271px;
+  height: 248px;
+  top: 59px;
+  left: 38px;
+}
+
+.trafalgar .text-wrapper-28 {
+  position: absolute;
+  top: 107px;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 56px;
+  white-space: nowrap;
+}
+
+.trafalgar .you-can-get {
+  position: absolute;
+  width: 266px;
+  top: 164px;
+  left: 1px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.trafalgar .frame-10 {
+  position: absolute;
+  width: 80px;
+  height: 71px;
+  top: 0;
+  left: 2px;
+}
+
+.trafalgar .header {
+  position: absolute;
+  width: 1487px;
+  height: 719px;
+  top: 56px;
+  left: -50px;
+  background-color: transparent;
+}
+
+.trafalgar .navbar {
+  position: absolute;
+  width: 555px;
+  height: 23px;
+  top: 14px;
+  left: 913px;
+}
+
+.trafalgar .text-wrapper-29 {
+  left: 0;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  font-family: "Mulish", Helvetica;
+  color: var(--x1f1534-hyfen);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trafalgar .text-wrapper-30 {
+  position: absolute;
+  top: 0;
+  left: 91px;
+  opacity: 0.5;
+  font-family: "Mulish", Helvetica;
+  font-weight: 400;
+  color: var(--x1f1534-hyfen);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trafalgar .text-wrapper-31 {
+  left: 241px;
+  opacity: 0.5;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  font-family: "Mulish", Helvetica;
+  color: var(--x1f1534-hyfen);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trafalgar .text-wrapper-32 {
+  left: 325px;
+  opacity: 0.5;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  font-family: "Mulish", Helvetica;
+  color: var(--x1f1534-hyfen);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trafalgar .text-wrapper-33 {
+  position: absolute;
+  top: 0;
+  left: 469px;
+  opacity: 0.5;
+  font-family: "Mulish", Helvetica;
+  font-weight: 400;
+  color: var(--x1f1534-hyfen);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trafalgar .header-text {
+  position: absolute;
+  width: 449px;
+  height: 338px;
+  top: 227px;
+  left: 240px;
+}
+
+.trafalgar .virtual-healthcare {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 56px;
+}
+
+.trafalgar .trafalgar-provides-3 {
+  top: 137px;
+  left: 0;
+  font-size: 21px;
+  line-height: 32px;
+  position: absolute;
+  font-family: "Mulish", Helvetica;
+  font-weight: 300;
+  color: #7c7987;
+  letter-spacing: 0;
+}
+
+.trafalgar .consult-btn {
+  position: absolute;
+  width: 202px;
+  height: 60px;
+  top: 278px;
+  left: 0;
+}
+
+.trafalgar .rectangle-10 {
+  position: absolute;
+  width: 200px;
+  height: 56px;
+  top: 3px;
+  left: 0;
+  background-color: #458ff6;
+  border-radius: 55px;
+}
+
+.trafalgar .text-wrapper-34 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.trafalgar .illustration {
+  position: absolute;
+  width: 693px;
+  height: 598px;
+  top: 121px;
+  left: 794px;
+  background-image: url(./img/trafalgar-header-illustration-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.trafalgar .element-6 {
+  position: absolute;
+  width: 82px;
+  height: 115px;
+  top: 104px;
+  left: 50px;
+}
+
+.trafalgar .logo {
+  position: absolute;
+  width: 164px;
+  height: 41px;
+  top: 0;
+  left: 241px;
+}
+
+.trafalgar .text-wrapper-35 {
+  left: 53px;
+  color: #233248;
+  position: absolute;
+  top: 6px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.trafalgar .overlap-12 {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 0;
+  left: 0;
+  background-color: #458ff6;
+  border-radius: 20.5px;
+}
+
+.trafalgar .text-wrapper-36 {
+  color: #ffffff;
+  position: absolute;
+  width: 17px;
+  top: 5px;
+  left: 13px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}

@@ -1,0 +1,391 @@
+.thu {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .thu .div {
+    background-color: #ffffff;
+    width: 430px;
+    height: 932px;
+    position: relative;
+  }
+  
+  .thu .frame {
+    position: absolute;
+    width: 79px;
+    height: 40px;
+    top: 20px;
+    left: 15px;
+  }
+  
+  .thu .logo-main {
+    position: relative;
+    height: 40px;
+  }
+  
+  .thu .shape {
+    position: absolute;
+    width: 78px;
+    height: 40px;
+    top: 0;
+    left: 0;
+  }
+  
+  .thu .overlap {
+    position: absolute;
+    width: 400px;
+    height: 138px;
+    top: 120px;
+    left: 15px;
+  }
+  
+  .thu .frame-2 {
+    position: absolute;
+    width: 15px;
+    height: 95px;
+    top: 5px;
+    left: 18px;
+  }
+  
+  .thu .div-wrapper {
+    position: absolute;
+    width: 400px;
+    height: 82px;
+    top: 0;
+    left: 0;
+  }
+  
+  .thu .text-wrapper {
+    top: -1px;
+    left: 0;
+    color: #000000;
+    font-size: var(--h1-bold-60-82-0-1px-font-size);
+    letter-spacing: var(--h1-bold-60-82-0-1px-letter-spacing);
+    line-height: var(--h1-bold-60-82-0-1px-line-height);
+    position: absolute;
+    font-family: var(--h1-bold-60-82-0-1px-font-family);
+    font-weight: var(--h1-bold-60-82-0-1px-font-weight);
+    white-space: nowrap;
+    font-style: var(--h1-bold-60-82-0-1px-font-style);
+  }
+  
+  .thu .sugn-in-with-your-wrapper {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    top: 98px;
+    left: 0;
+  }
+  
+  .thu .sugn-in-with-your {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    font-family: var(--body-1-regular-14-20-0-1px-font-family);
+    font-weight: var(--body-1-regular-14-20-0-1px-font-weight);
+    color: #000000;
+    font-size: var(--body-1-regular-14-20-0-1px-font-size);
+    letter-spacing: var(--body-1-regular-14-20-0-1px-letter-spacing);
+    line-height: var(--body-1-regular-14-20-0-1px-line-height);
+    font-style: var(--body-1-regular-14-20-0-1px-font-style);
+  }
+  
+  .thu .overlap-group {
+    position: absolute;
+    width: 400px;
+    height: 88px;
+    top: 286px;
+    left: 15px;
+  }
+  
+  .thu .rectangle {
+    width: 400px;
+    height: 84px;
+    top: 4px;
+    left: 0;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .frame-3 {
+    position: absolute;
+    width: 400px;
+    height: 16px;
+    top: 0;
+    left: 0;
+  }
+  
+  .thu .text-wrapper-2 {
+    position: absolute;
+    width: 31px;
+    top: -1px;
+    left: 0;
+    font-family: var(--small-2-semibold-12-16-0px-font-family);
+    font-weight: var(--small-2-semibold-12-16-0px-font-weight);
+    color: #545563;
+    font-size: var(--small-2-semibold-12-16-0px-font-size);
+    letter-spacing: var(--small-2-semibold-12-16-0px-letter-spacing);
+    line-height: var(--small-2-semibold-12-16-0px-line-height);
+    font-style: var(--small-2-semibold-12-16-0px-font-style);
+  }
+  
+  .thu .rectangle-2 {
+    width: 400px;
+    height: 44px;
+    top: 24px;
+    left: 0;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #c7c8d2;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .rectangle-3 {
+    width: 376px;
+    height: 20px;
+    top: 36px;
+    left: 12px;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .placehoder {
+    position: absolute;
+    height: 20px;
+    top: 35px;
+    left: 11px;
+    font-family: var(--body-1-regular-14-20-0-1px-font-family);
+    font-weight: var(--body-1-regular-14-20-0-1px-font-weight);
+    color: #83859c;
+    font-size: var(--body-1-regular-14-20-0-1px-font-size);
+    letter-spacing: var(--body-1-regular-14-20-0-1px-letter-spacing);
+    line-height: var(--body-1-regular-14-20-0-1px-line-height);
+    white-space: nowrap;
+    font-style: var(--body-1-regular-14-20-0-1px-font-style);
+  }
+  
+  .thu .overlap-group-2 {
+    position: absolute;
+    width: 400px;
+    height: 85px;
+    top: 381px;
+    left: 15px;
+  }
+  
+  .thu .rectangle-4 {
+    width: 400px;
+    height: 84px;
+    top: 1px;
+    left: 0;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .rectangle-5 {
+    width: 400px;
+    height: 16px;
+    top: 1px;
+    left: 0;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--small-2-semibold-12-16-0px-font-family);
+    font-weight: var(--small-2-semibold-12-16-0px-font-weight);
+    color: #545563;
+    font-size: var(--small-2-semibold-12-16-0px-font-size);
+    letter-spacing: var(--small-2-semibold-12-16-0px-letter-spacing);
+    line-height: var(--small-2-semibold-12-16-0px-line-height);
+    white-space: nowrap;
+    font-style: var(--small-2-semibold-12-16-0px-font-style);
+  }
+  
+  .thu .rectangle-6 {
+    width: 400px;
+    height: 44px;
+    top: 21px;
+    left: 0;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #c7c8d2;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .rectangle-7 {
+    width: 348px;
+    height: 20px;
+    top: 33px;
+    left: 12px;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .text-wrapper-4 {
+    position: absolute;
+    height: 20px;
+    top: 32px;
+    left: 11px;
+    font-family: var(--body-1-regular-14-20-0-1px-font-family);
+    font-weight: var(--body-1-regular-14-20-0-1px-font-weight);
+    color: #83859c;
+    font-size: var(--body-1-regular-14-20-0-1px-font-size);
+    letter-spacing: var(--body-1-regular-14-20-0-1px-letter-spacing);
+    line-height: var(--body-1-regular-14-20-0-1px-line-height);
+    white-space: nowrap;
+    font-style: var(--body-1-regular-14-20-0-1px-font-style);
+  }
+  
+  .thu .eye {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 29px;
+    left: 371px;
+  }
+  
+  .thu .overlap-2 {
+    position: absolute;
+    width: 404px;
+    height: 21px;
+    top: 473px;
+    left: 15px;
+  }
+  
+  .thu .rectangle-8 {
+    width: 400px;
+    height: 20px;
+    top: 1px;
+    left: 0;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .text-wrapper-5 {
+    position: absolute;
+    width: 368px;
+    top: 0;
+    left: 36px;
+    font-family: var(--body-1-regular-14-20-0-1px-font-family);
+    font-weight: var(--body-1-regular-14-20-0-1px-font-weight);
+    color: #2b2b43;
+    font-size: var(--body-1-regular-14-20-0-1px-font-size);
+    letter-spacing: var(--body-1-regular-14-20-0-1px-letter-spacing);
+    line-height: var(--body-1-regular-14-20-0-1px-line-height);
+    font-style: var(--body-1-regular-14-20-0-1px-font-style);
+  }
+  
+  .thu .rectangle-9 {
+    width: 20px;
+    height: 20px;
+    top: 1px;
+    left: 1px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #c7c8d2;
+    position: absolute;
+    background-color: #ffffff;
+  }
+  
+  .thu .text-wrapper-6 {
+    height: 20px;
+    top: 541px;
+    left: 196px;
+    color: #ffffff;
+    font-size: var(--button-1-bold-14-20-0-4px-font-size);
+    text-align: center;
+    letter-spacing: var(--button-1-bold-14-20-0-4px-letter-spacing);
+    line-height: var(--button-1-bold-14-20-0-4px-line-height);
+    position: absolute;
+    font-family: var(--button-1-bold-14-20-0-4px-font-family);
+    font-weight: var(--button-1-bold-14-20-0-4px-font-weight);
+    white-space: nowrap;
+    font-style: var(--button-1-bold-14-20-0-4px-font-style);
+  }
+  
+  .thu .overlap-3 {
+    position: absolute;
+    width: 400px;
+    height: 44px;
+    top: 594px;
+    left: 16px;
+    background-color: #ffffff;
+  }
+  
+  .thu .text-wrapper-7 {
+    position: absolute;
+    height: 20px;
+    top: 6px;
+    left: 142px;
+    font-family: var(--button-1-bold-14-20-0-4px-font-family);
+    font-weight: var(--button-1-bold-14-20-0-4px-font-weight);
+    color: #4e60ff;
+    font-size: var(--button-1-bold-14-20-0-4px-font-size);
+    text-align: center;
+    letter-spacing: var(--button-1-bold-14-20-0-4px-letter-spacing);
+    line-height: var(--button-1-bold-14-20-0-4px-line-height);
+    white-space: nowrap;
+    font-style: var(--button-1-bold-14-20-0-4px-font-style);
+  }
+  
+  .thu .overlap-4 {
+    position: absolute;
+    width: 400px;
+    height: 21px;
+    top: 757px;
+    left: 16px;
+  }
+  
+  .thu .don-t-have-an {
+    position: absolute;
+    height: 20px;
+    top: 0;
+    left: 93px;
+    font-family: var(--button-1-bold-14-20-0-4px-font-family);
+    font-weight: var(--button-1-bold-14-20-0-4px-font-weight);
+    color: transparent;
+    font-size: var(--button-1-bold-14-20-0-4px-font-size);
+    text-align: center;
+    letter-spacing: var(--button-1-bold-14-20-0-4px-letter-spacing);
+    line-height: var(--button-1-bold-14-20-0-4px-line-height);
+    white-space: nowrap;
+    font-style: var(--button-1-bold-14-20-0-4px-font-style);
+  }
+  
+  .thu .span {
+    color: #545563;
+    font-family: var(--button-1-bold-14-20-0-4px-font-family);
+    font-style: var(--button-1-bold-14-20-0-4px-font-style);
+    font-weight: var(--button-1-bold-14-20-0-4px-font-weight);
+    letter-spacing: var(--button-1-bold-14-20-0-4px-letter-spacing);
+    line-height: var(--button-1-bold-14-20-0-4px-line-height);
+    font-size: var(--button-1-bold-14-20-0-4px-font-size);
+  }
+  
+  .thu .text-wrapper-8 {
+    color: #000000;
+    font-family: var(--button-1-bold-14-20-0-4px-font-family);
+    font-style: var(--button-1-bold-14-20-0-4px-font-style);
+    font-weight: var(--button-1-bold-14-20-0-4px-font-weight);
+    letter-spacing: var(--button-1-bold-14-20-0-4px-letter-spacing);
+    line-height: var(--button-1-bold-14-20-0-4px-line-height);
+    font-size: var(--button-1-bold-14-20-0-4px-font-size);
+  }
+  
+  .thu .text-wrapper-9 {
+    color: #4e60ff;
+    font-family: var(--button-1-bold-14-20-0-4px-font-family);
+    font-style: var(--button-1-bold-14-20-0-4px-font-style);
+    font-weight: var(--button-1-bold-14-20-0-4px-font-weight);
+    letter-spacing: var(--button-1-bold-14-20-0-4px-letter-spacing);
+    line-height: var(--button-1-bold-14-20-0-4px-line-height);
+    font-size: var(--button-1-bold-14-20-0-4px-font-size);
+  }
