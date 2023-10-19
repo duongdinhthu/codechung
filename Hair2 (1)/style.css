@@ -1,0 +1,1626 @@
+body{
+  width: 100%;
+  height: 100vh;
+}
+p{
+  font-family: 'roboto',sans-serif;
+}
+span{
+  font-family: 'roboto',sans-serif;
+}
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.frame .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 960px;
+  height: 2432px;
+  position: relative;
+  
+}
+
+.frame .free-location-icon {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 16px;
+  left: 89px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: 16px;
+  left: 30px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 116px;
+  height: 30px;
+  top: 5px;
+  left: 133px;
+}
+
+.frame .img {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 11px;
+  left: 99px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 11px;
+  left: 7px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 283px;
+  height: 149px;
+  top: 0px;
+  left: 325px;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 220px;
+  top: 28px;
+  left: 45px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.div-wrapper-2,.div-wrapper-3{
+  margin-top: 20px;
+}
+
+.frame .overlap-wrapper {
+  position: absolute;
+  width: 283px;
+  height: 117px;
+  top: 32px;
+  left: 0;
+}
+
+.frame .overlap-2 {
+  position: relative;
+  width: 216px;
+  height: 65px;
+  top: 37px;
+  left: 39px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 216px;
+  height: 25px;
+  top: 14px;
+  left: 0;
+  background-color: #000000;
+}
+
+.frame .p {
+  position: absolute;
+  width: 205px;
+  top: 14px;
+  left: 6px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 28px;
+  top: 40px;
+  left: 92px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  top: 20px;
+  left: 858px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .search-icon-vector {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 13px;
+  left: 896px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-6 {
+  top: 20px;
+  left: 765px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  position: absolute;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .navbar {
+  position: absolute;
+  width: 963px;
+  height: 64px;
+  top: 135px;
+  left: 0;
+}
+
+.frame .rectangle-2 {
+  position: absolute;
+  width: 855px;
+  height: 57px;
+  top: 7px;
+  left: 61px;
+  background-color: #ffffff;
+}
+
+.frame .rectangle-3 {
+  position: absolute;
+  width: 960px;
+  height: 57px;
+  top: 0;
+  left: 3px;
+  background-color: #ffffff;
+}
+
+.frame .rectangle-4 {
+  position: absolute;
+  width: 960px;
+  height: 57px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.frame .text-wrapper-7 {
+  position: absolute;
+  top: 21px;
+  left: 160px;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-8 {
+  position: absolute;
+  top: 21px;
+  left: 251px;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-9 {
+  left: 347px;
+  position: absolute;
+  top: 21px;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-10 {
+  left: 450px;
+  position: absolute;
+  top: 21px;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-11 {
+  left: 543px;
+  position: absolute;
+  top: 21px;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-12 {
+  left: 656px;
+  position: absolute;
+  top: 21px;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-13 {
+  position: absolute;
+  top: 21px;
+  left: 761px;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text {
+  position: absolute;
+  top: 1614px;
+  left: 194px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .frame-wrapper {
+  position: absolute;
+  width: 960px;
+  height: 350px;
+  top: 205px;
+  left: 0;
+  background-image: url(./img/arm-homepage-banner-3-dsktp-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.frame .div-2 {
+  position: relative;
+  width: 201px;
+  height: 192px;
+  top: 89px;
+  left: 525px;
+  background-color: #ffffff;
+}
+
+.frame .div-wrapper {
+  position: absolute;
+  width: 24px;
+  height: 13px;
+  top: 14px;
+  left: 20px;
+  background-color: #000000;
+}
+
+.frame .text-wrapper-14 {
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .div-wrapper-2 {
+  position: absolute;
+  width: 62px;
+  height: 22px;
+  top: 125px;
+  left: 16px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.frame .text-wrapper-15 {
+  top: 6px;
+  font-weight: 700;
+  font-size: 7px;
+  position: absolute;
+  left: 7px;
+  font-family: 'roboto',sans-serif;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .div-wrapper-3 {
+  position: absolute;
+  width: 46px;
+  height: 22px;
+  top: 125px;
+  left: 81px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.frame .absolut-repair-wrapper {
+  position: absolute;
+  width: 176px;
+  height: 98px;
+  top: 27px;
+  left: 16px;
+}
+
+.frame .absolut-repair {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .span {
+  font-weight: 500;
+}
+
+.frame .text-wrapper-16 {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-17 {
+  font-weight: 700;
+  font-size: 7px;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-18 {
+  top: 615px;
+  left: 726px;
+  position: absolute;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .div-3 {
+  position: absolute;
+  width: 533px;
+  height: 318px;
+  top: 653px;
+  left: 165px;
+}
+
+.frame .div-wrapper-4 {
+  width: 24px;
+  height: 13px;
+  top: 2px;
+  left: 509px;
+  position: absolute;
+  background-color: #000000;
+}
+
+.frame .find-your-new-wrapper {
+  position: absolute;
+  width: 212px;
+  height: 32px;
+  top: 20px;
+  left: 321px;
+}
+
+.frame .find-your-new {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .try-out-our-NEW {
+  position: absolute;
+  width: 236px;
+  top: 95px;
+  left: 149px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 8px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .image {
+  width: 133px;
+  height: 222px;
+  top: 96px;
+  left: 388px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .div-wrapper-5 {
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  top: 121px;
+  left: 318px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.frame .text-wrapper-19 {
+  position: absolute;
+  
+  top: 6px;
+  left: 2px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 8px;
+  font-family: 'roboto',sans-serif;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 533px;
+  height: 523px;
+  top: 1028px;
+  left: 153px;
+}
+
+.frame .div-4 {
+  position: absolute;
+  width: 533px;
+  height: 318px;
+  top: 0;
+  left: 0;
+}
+
+.frame .overlap-group-2 {
+  position: absolute;
+  width: 82px;
+  height: 28px;
+  top: 0;
+  left: 451px;
+}
+
+.frame .div-wrapper-6 {
+  width: 45px;
+  height: 13px;
+  top: 0;
+  left: 37px;
+  position: absolute;
+  background-color: #000000;
+}
+
+.frame .text-wrapper-20 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-21 {
+  position: absolute;
+  top: 12px;
+  font-family: 'roboto',sans-serif;
+  left: 0;
+  font-weight: 800;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .image-2 {
+  width: 73px;
+  height: 73px;
+  top: 36px;
+  left: 226px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-3 {
+  width: 73px;
+  height: 73px;
+  top: 36px;
+  left: 307px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-4 {
+  width: 145px;
+  height: 145px;
+  top: 36px;
+  left: 388px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .an-all-in-one-wrapper {
+  position: absolute;
+  width: 144px;
+  height: 23px;
+  top: 112px;
+  left: 236px;
+}
+
+.frame .an-all-in-one {
+  position: absolute;
+  top: 5px;
+  left: 1px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 6px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-wrapper-7 {
+  position: absolute;
+  width: 63px;
+  height: 17px;
+  top: 138px;
+  left: 317px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.frame .text-wrapper-22 {
+  top: 3px;
+  font-weight: 600;
+  font-size: 8px;
+  text-align: right;
+  position: absolute;
+  left: 7px;
+  font-family: 'roboto',sans-serif;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .div-5 {
+  position: absolute;
+  width: 533px;
+  height: 258px;
+  top: 265px;
+  left: 0;
+}
+
+.frame .div-wrapper-8 {
+  width: 77px;
+  height: 13px;
+  top: 0;
+  left: 456px;
+  overflow: hidden;
+  position: absolute;
+  background-color: #000000;
+}
+
+.frame .text-wrapper-23 {
+  position: absolute;
+  width: 108px;
+  top: 1px;
+  left: 0;
+  font-family: 'roboto',sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-4 {
+  position: absolute;
+  width: 288px;
+  height: 58px;
+  top: 13px;
+  left: 245px;
+}
+
+.frame .div-wrapper-9 {
+  position: absolute;
+  width: 111px;
+  height: 32px;
+  top: 26px;
+  left: 177px;
+}
+
+.frame .text-wrapper-24 {
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 900;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .express-your-curls-wrapper {
+  position: absolute;
+  width: 288px;
+  height: 36px;
+  top: 0;
+  left: 0;
+}
+
+.frame .express-your-curls {
+  position: absolute;
+  width: 279px;
+  top: 9px;
+  left: 9px;
+  font-weight: 800;
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .image-5 {
+  width: 80px;
+  height: 124px;
+  top: 75px;
+  left: 290px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .supercharge-curls-wrapper {
+  position: absolute;
+  width: 147px;
+  height: 17px;
+  top: 207px;
+  left: 223px;
+  overflow: hidden;
+}
+
+.frame .supercharge-curls {
+  position: absolute;
+  width: 167px;
+  top: 4px;
+  left: -20px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 6px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-wrapper-10 {
+  position: absolute;
+  width: 63px;
+  height: 17px;
+  top: 226px;
+  left: 307px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.frame .text-wrapper-25 {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 8px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .image-6 {
+  width: 86px;
+  height: 84px;
+  top: 340px;
+  left: 195px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .overlap-5 {
+  position: absolute;
+  width: 347px;
+  height: 162px;
+  top: 1582px;
+  left: 339px;
+}
+
+.frame .div-6 {
+  position: absolute;
+  width: 347px;
+  height: 162px;
+  top: 0;
+  left: 0;
+}
+
+.frame .text-wrapper-26 {
+  position: absolute;
+  top: -1px;
+  left: 42px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 800;
+  color: #000000;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .image-7 {
+  width: 100px;
+  height: 100px;
+  top: 21px;
+  left: 230px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-8 {
+  width: 100px;
+  height: 100px;
+  top: 21px;
+  left: 18px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .overlap-6 {
+  position: absolute;
+  width: 68px;
+  height: 12px;
+  top: 131px;
+  left: 32px;
+}
+
+.frame .div-wrapper-11 {
+  width: 32px;
+  height: 7px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #000000;
+}
+
+.frame .text-wrapper-27 {
+  position: absolute;
+  width: 28px;
+  top: 0;
+  font-family: 'roboto',sans-serif;
+  left: 2px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-28 {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-weight: 900;
+  color: #000000;
+  font-family: 'roboto',sans-serif;
+  font-size: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .div-wrapper-12 {
+  position: absolute;
+  width: 23px;
+  height: 7px;
+  top: 131px;
+  left: 136px;
+  background-color: #000000;
+}
+
+.frame .text-wrapper-29 {
+  position: absolute;
+  width: 21px;
+  top: 0;
+  left: 2px;
+  font-weight: 700;
+  font-family: 'roboto',sans-serif;
+  color: #ffffff;
+  font-size: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-30 {
+  position: absolute;
+  top: 138px;
+  left: 136px;
+  font-weight: 900;
+  color: #000000;
+  font-family: 'roboto',sans-serif;
+  font-size: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-7 {
+  position: absolute;
+  width: 68px;
+  height: 12px;
+  top: 132px;
+  left: 244px;
+}
+
+.frame .div-wrapper-13 {
+  position: absolute;
+  width: 25px;
+  height: 7px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.frame .image-9 {
+  width: 103px;
+  height: 100px;
+  top: 21px;
+  left: 123px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .div-7 {
+  position: absolute;
+  width: 321px;
+  height: 75px;
+  top: 1769px;
+  left: 350px;
+}
+
+.frame .image-10 {
+  width: 38px;
+  height: 38px;
+  top: 4px;
+  left: 31px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-11 {
+  width: 38px;
+  height: 38px;
+  top: 4px;
+  left: 142px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-31 {
+  position: absolute;
+  top: 44px;
+  left: 32px;
+  font-family: 'roboto',sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-32 {
+  position: absolute;
+  top: 53px;
+  left: 31px;
+  font-weight: 800;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  font-family: 'roboto',sans-serif;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-33 {
+  position: absolute;
+  top: 53px;
+  left: 149px;
+  font-weight: 800;
+  color: #000000;
+  font-family: 'roboto',sans-serif;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-34 {
+  position: absolute;
+  top: 53px;
+  left: 250px;
+  font-weight: 800;
+  color: #000000;
+  font-size: 13px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .image-12 {
+  width: 38px;
+  height: 38px;
+  top: 4px;
+  left: 256px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-35 {
+  position: absolute;
+  top: 44px;
+  left: 145px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 8px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-36 {
+  position: absolute;
+  top: 44px;
+  left: 254px;
+  font-weight: 500;
+  color: #000000;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .div-8 {
+  width: 960px;
+  height: 359px;
+  top: 1967px;
+  left: 0;
+  position: absolute;
+  background-color: #000000;
+}
+
+.frame .overlap-group-wrapper {
+  position: absolute;
+  width: 110px;
+  height: 88px;
+  top: 28px;
+  left: 46px;
+}
+
+.frame .overlap-group-3 {
+  position: relative;
+  height: 84px;
+  top: -1px;
+}
+
+.frame .rectangle-5 {
+  position: absolute;
+  width: 100px;
+  height: 15px;
+  top: 38px;
+  left: 5px;
+  background-color: #ffffff;
+}
+
+.frame .text-wrapper-37 {
+  position: absolute;
+  width: 100px;
+  top: 32px;
+  left: 5px;
+  font-weight: 400;
+  font-family: 'roboto',sans-serif;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-38 {
+  position: absolute;
+  width: 28px;
+  top: 52px;
+  left: 47px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'roboto',sans-serif;
+  font-size: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-39 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  font-family: 'roboto',sans-serif;
+  line-height: normal;
+}
+
+.frame .div-9 {
+  position: absolute;
+  width: 163px;
+  height: 370px;
+  top: -11px;
+  left: 239px;
+  overflow: hidden;
+}
+
+.frame .text-wrapper-40 {
+  position: absolute;
+  width: 137px;
+  top: 23px;
+  font-family: 'roboto',sans-serif;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.frame .text-wrapper-41 {
+  top: 56px;
+  position: absolute;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-42 {
+  position: absolute;
+  top: 89px;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-43 {
+  position: absolute;
+  top: 188px;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-44 {
+  position: absolute;
+  top: 253px;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  font-family: 'roboto',sans-serif;
+  line-height: normal;
+}
+
+.frame .text-wrapper-45 {
+  position: absolute;
+  width: 167px;
+  top: 122px;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-46 {
+  top: 154px;
+  text-decoration: underline;
+  position: absolute;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-47 {
+  position: absolute;
+  top: 220px;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-48 {
+  position: absolute;
+  top: 285px;
+  left: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .div-10 {
+  position: absolute;
+  width: 306px;
+  height: 294px;
+  top: 35px;
+  left: 536px;
+}
+
+.frame .text-wrapper-49 {
+  position: absolute;
+  top: 6px;
+  left: 38px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .div-11 {
+  position: absolute;
+  width: 156px;
+  height: 25px;
+  top: 7px;
+  left: 102px;
+  background-color: #7f8c8d;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.frame .text-wrapper-50 {
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  font-weight: 400;
+  color: #bdc3c7;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .image-13 {
+  width: 14px;
+  height: 16px;
+  top: 5px;
+  left: 138px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .div-12 {
+  position: absolute;
+  width: 960px;
+  height: 102px;
+  top: 2330px;
+  left: 0;
+  background-color: #000000;
+}
+
+.frame .div-wrapper-14 {
+  position: absolute;
+  width: 218px;
+  height: 37px;
+  top: 25px;
+  left: 0;
+}
+
+.frame .text-wrapper-51 {
+  position: absolute;
+  top: 8px;
+  left: 17px;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-52 {
+  position: absolute;
+  top: 12px;
+  left: 258px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-53 {
+  left: 258px;
+  text-decoration: underline;
+  position: absolute;
+  top: 49px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .text-wrapper-54 {
+  position: absolute;
+  top: 12px;
+  left: 337px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  font-family: 'roboto',sans-serif;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-55 {
+  position: absolute;
+  top: 49px;
+  left: 362px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  font-family: 'roboto',sans-serif;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-56 {
+  position: absolute;
+  top: 12px;
+  left: 492px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  font-family: 'roboto',sans-serif;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-57 {
+  left: 446px;
+  position: absolute;
+  top: 49px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  font-family: 'roboto',sans-serif;
+}
+
+.frame .olapic-t-cs {
+  position: absolute;
+  top: 49px;
+  left: 560px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.frame .SMH-t-cs {
+  position: absolute;
+  top: 49px;
+  left: 657px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.frame .terms-of-use-cont {
+  position: absolute;
+  top: 12px;
+  left: 689px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .terms-of-use-cont-2 {
+  position: absolute;
+  top: 38px;
+  left: 810px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* Media Queries */
+/* Smartphones, small screens (portrait and landscape) ———– */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+  }
+  
+  /* Smartphones, small screens (landscape) ———– */
+  @media only screen and (min-width : 321px) {
+  /* Styles */
+  }
+  
+  /* Smartphones (portrait) ———– */
+  @media only screen and (max-width : 320px) {
+  /* Styles */
+  }
+  
+  /* iPads (portrait and landscape) ———– */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  }
+  
+  /* iPads (landscape) ———– */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+  }
+  
+  /* iPads (portrait) ———– */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* Styles */
+  }
+  /**********
+  iPad 3
+  **********/
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  }
+  /* Desktops and laptops ———– */
+  @media only screen and (min-width : 1224px) {
+  /* Styles */
+  }
+  
+  /* Large screens ———– */
+  @media only screen and (min-width : 1824px) {
+  /* Styles */
+  }
+  
+  /* iPhone 4 ———– */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  /* Styles */
+  }
+  
+  /* iPhone 5 ———– */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  /* iPhone 6, 7, 8 ———– */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  /* iPhone 6+, 7+, 8+ ———– */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  /* iPhone X ———– */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  }
+  
+  /* iPhone XS Max, XR ———– */
+  @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  }
+  
+  /* Samsung Galaxy S3 ———– */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  /* Samsung Galaxy S4 ———– */
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  }
+  
+  /* Samsung Galaxy S5 ———– */
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  }
