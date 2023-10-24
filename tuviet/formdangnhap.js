@@ -21,19 +21,8 @@ $(document).ready(function(){
 
 $('#form-submit').click(function(){
     alert('Đang đăng nhập, cứ bình tĩnh :D');
-})
-$('#button1').click(function(){
-    var a = document.getElementById('body');
-    a.classList.toggle('xoa');
-    var b = document.createElement('p')
-    b.textContent = ('Đã bảo đừng ấn rồi đmm. Ấn tải lại trang đi. ngu lắm ');
-    a.after(b);
 });
 
-$('#button2').click(function(){
-    var a = document.getElementById('form-login');
-    a.classList.toggle('xoa');
-})
 $('#button3').click(function(){
     var a = document.getElementById('wrapper');
     a.classList.toggle('xoa',);
