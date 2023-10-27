@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="magic.css">
-</head>
-<body>
-    <div class="card">
-        Magic Card
+    <link rel="stylesheet" href="magic.css" />
+  </head>
+  <body>
+    <div class="card" id="card1">
+      <div class="card__image" id="card__image1"></div>
+      <div class="card__content">
+        <div class="card__header">
+          <h2>Suggestion</h2>
+        </div>
+        <div class="card__text">
+          <p>
+            Here is an alternative approach to implement a Magic 8 Ball. Instead
+            of using CSS transitions, we can utilize JavaScript to randomly
+            generate a number corresponding to an answer.
+          </p>
+        </div>
+        <button id="generateBtn">Generate</button>
+        <div id="result"></div>
       </div>
-      
-      <a href="https://mythrillfiction.com/" target="_blank">Mythrill</a>
-</body>
+    </div>
+
+    <script>
+      const answers = ["Dương Thứ", "Quỳnh Anh", "Công Minh"];
+
+      const generateBtn = document.getElementById("generateBtn");
+      const result = document.getElementById("result");
+
+      generateBtn.addEventListener("click", () => {
+        const randomIndex = Math.floor(Math.random() * answers.length);
+        result.textContent = answers[randomIndex];
+      });
+    </script>
+  </body>
 </html>

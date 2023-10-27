@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formdangnhap.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formdangnhap.css" />
     <title>Form login</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body id="body">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body id="body">
     <div class="background">
-       <div id="button-sp">
-        <a href="https://duongdinhthu.github.io/codechung/bttrenlop/dientich.html" id="a1" target="_blank"> <button id="button1" >Tính diện tích tam giác nè</button></a>
-        <a href="https://duongdinhthu.github.io/codechung/bttrenlop/ptb2.html" id="a2" target="_blank"> <button id="button2" >Tính phương trình bậc 2 nè :D</button></a>
-        <button id="button3" >Giải trí đi anh em :D</button>  
-        <button id="button4" >Giải trí đi anh em :D</button>
-        <button id="button5" >Giải trí đi anh em :D</button>     
+      <div id="button-sp">
+        <a
+          href="https://duongdinhthu.github.io/codechung/bttrenlop/dientich.html"
+          id="a1"
+          target="_blank"
+        >
+          <button id="button1">Tính diện tích tam giác nè</button></a
+        >
+        <a
+          href="https://duongdinhthu.github.io/codechung/bttrenlop/ptb2.html"
+          id="a2"
+          target="_blank"
+        >
+          <button id="button2">Tính phương trình bậc 2 nè :D</button></a
+        >
+        <button id="button3">Giải trí đi anh em :D</button>
+        <button id="button4">Giải trí đi anh em :D</button>
+        <button id="button5">Giải trí đi anh em :D</button>
+      </div>
+      <div id="wrapper">
+        <div class="header1"></div>
+        <div class="header2"></div>
+        <div class="header3"></div>
+        <div class="header4"></div>
+        <form action="" id="form-login">
+          <h3 class="form-heading">Đăng nhập</h3>
+          <div class="form-group">
+            <i class="fas fa-user" style="color: #ffffff"></i>
+            <input type="text" class="form-input" placeholder="Tên đăng nhập" />
+          </div>
+          <div class="form-group">
+            <i class="fas fa-key" style="color: #ffffff"></i>
+            <input type="password" class="form-input" placeholder="Mật khẩu" />
+            <div id="eye">
+              <i class="fas fa-eye" style="color: #ffffff"></i>
+            </div>
+          </div>
+          <div>
+            <div class="submit">
+              <div class="submit1"></div>
+              <input type="submit" value="Đăng nhập" id="form-submit" />
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-        <div id="wrapper">
-            <div class="header1 "></div>
-            <div class="header2 "></div>
-            <div class="header3 "></div>
-            <div class="header4 "></div>
-            <form action="" id="form-login">
-                <h3 class="form-heading">Đăng nhập</h3>
-                <div class="form-group">
-                    <i class="fas fa-user" style="color: #ffffff;"></i>
-                    <input type="text" class="form-input" placeholder="Tên đăng nhập">
-                </div>
-                <div class="form-group">
-                    <i class="fas fa-key" style="color: #ffffff;"></i>
-                    <input type="password" class="form-input" placeholder="Mật khẩu">
-                    <div id="eye">
-                        <i class="fas fa-eye" style="color: #ffffff;"></i>
-                    </div>
-                </div>
-                <div>
-                    <div class="submit">
-                        <div class="submit1"></div>
-                        <input type="submit" value="Đăng nhập" id="form-submit">
-                    </div>
-                </div>
-            </form> 
-    </div>
-    </div>
-</body>
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-<!-- đưa script vào trong html  -->
-    <script src="formdangnhap.js"></script>
-    <!-- gọi thư mục srcipt trong html  -->
+  </body>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <!-- đưa script vào trong html  -->
+  <script src="formdangnhap.js"></script>
+  <!-- gọi thư mục srcipt trong html  -->
 </html>
