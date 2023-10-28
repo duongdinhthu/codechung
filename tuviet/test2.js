@@ -1,5 +1,4 @@
 console.clear();
-alert("123");
 const { gsap, imagesLoaded } = window;
 
 const buttons = {
