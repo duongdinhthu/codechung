@@ -25,9 +25,7 @@ $('#form-submit').click(function(){
 $('#button4').click(function(){
     var a = document.getElementById('body');
     a.classList.toggle('xoa');
-    var b = document.createElement('p')
-    b.textContent = ('Đã bảo đừng ấn rồi đmm. Ấn tải lại trang đi. ngu lắm ');
-    a.after(b);
+    
 });
 
 $('#button5').click(function(){
