@@ -13,7 +13,7 @@
     perspective: 20px;
     perspective-origin: 20px;
   }
-  .box {
+  .box , .box1 , .box2 , .box3 {
     width: 200px;
     height: 200px;
     background-color: aqua;
@@ -24,38 +24,7 @@
     0 0 50px 10px aqua blue;
     border: 1px solid aqua;
   }
-  .box1 {
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    box-shadow: 0 0 0 0 aqua inset,
-    0 0 50px 10px aqua blue;
-    border: 1px solid aqua;
+  .box3{
+    transform: translateX(90deg) rotate(90deg);
   }
-  .box2 {
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    box-shadow: 0 0 0 0 aqua inset,
-    0 0 50px 10px aqua blue;
-    border: 1px solid aqua;
-  }
-  .box3 {
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    box-shadow: 0 0 0 0 aqua inset,
-    0 0 5px 10px rgb(54, 107, 107);
-    border: 1px solid aqua;
-  }
-  
   
