@@ -13,7 +13,7 @@ class Login extends Component// test sẽ kế thừa lại những methods(phư
                 <br/>
                 Password: <input type="password"></input>
                 <br/>
-                <input type="submit"></input>
+                <input type="button"></input>
             </div>
         );
     }  
