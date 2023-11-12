@@ -5,6 +5,7 @@ function Product(props){
             <h4>{props.name}</h4>
             <p>{props.decs}</p>
             <h4>{props.price}</h4>
+            
         </div>
     );
 }
