@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 // import MyAppWithProps from './component1/app';
 // import RegistrationForm from './formlogin/formlogin';
 import PT from './ptb2/ptb2';
+import DT from './dientich/dientichtamgiac';
 
 // class ComponentExample extends React.Component{
 //   class Test extends React.Component{
@@ -79,7 +80,9 @@ root.render(
     {/* <Test/> */}
     {/* <MyAppWithProps></MyAppWithProps> */}
     {/* <RegistrationForm></RegistrationForm> */}
-    <PT></PT>
+    {/* <PT></PT> */}
+    <DT></DT>
+   
 </React.StrictMode>
 );
 
