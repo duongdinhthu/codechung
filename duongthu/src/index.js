@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
+
 // import { ReactPropTypes } from 'react;
 // import PropTypes from 'prop-types'
 // import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyAppWithProps from './component1/app';
-import RegistrationForm from './formlogin/formlogin';
+// import MyAppWithProps from './component1/app';
+// import RegistrationForm from './formlogin/formlogin';
 import PT from './ptb2/ptb2';
 
 // class ComponentExample extends React.Component{
