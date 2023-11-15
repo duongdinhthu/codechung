@@ -4,10 +4,11 @@ import React, {Component} from 'react';
 // import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import MyAppWithProps from './component1/app';
+import MyAppWithProps from './component1/app';
 import RegistrationForm from './formlogin/formlogin';
+import PT from './ptb2/ptb2';
 
 // class ComponentExample extends React.Component{
 //   class Test extends React.Component{
@@ -76,8 +77,9 @@ root.render(
     {/* <Login></Login> */}
     {/* <Test/> */}
     {/* <MyAppWithProps></MyAppWithProps> */}
-    <RegistrationForm></RegistrationForm>
-  </React.StrictMode>
+    {/* <RegistrationForm></RegistrationForm> */}
+    <PT></PT>
+</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
