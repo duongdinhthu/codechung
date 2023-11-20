@@ -24,3 +24,15 @@ button{
 .erro{
     border: 2px solid red;
 }
+button:disabled{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+
+}
+button:enabled{
+padding: 10px;
+margin: 20px;
+width: 200px;
+height: 100px;
+}
