@@ -1,0 +1,26 @@
+.success-message{
+    font-family: sans-serif;
+    background-color: green;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+span{
+    color: red;
+}
+button{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.erro{
+    border: 2px solid red;
+}

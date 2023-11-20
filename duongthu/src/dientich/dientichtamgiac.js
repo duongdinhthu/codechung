@@ -6,19 +6,22 @@ function Dientich() {
     const [c, setC] = useState({});
     const [result, setResult] = useState('');
     
-    const dientich1=()=>{
-        const d = (parseInt(a)+parseInt(b)+parseInt(c))/2;
-        const e = d*(d-a)*(d-b)*(d-c);
-        const f = math.sqrt(e);   
-        if(a+b>c||a+c>b||b+c>a) {  
-            setResult('Diện tích tam giác là: '+ f);
-            
-        } else{
-            
-            setResult('Đây không phải là tam giác , mời bạn nhập lại');
-
-        }
-    };
+    function Dientich1(){
+        
+            const d = (parseInt(a)+parseInt(b)+parseInt(c))/2;
+            const e = d*(d-a)*(d-b)*(d-c);
+            const f = math.sqrt(e);
+            if(a+b<c){ 
+                setResult('Đây không phải là tam giác , mời bạn nhập lại');
+                console.log(a , b , c , d , e , f);
+            } else {
+                
+                setResult('Diện tích của tam giác là: '+ f);
+                console.log("check else");
+            }
+             
+    
+    }
     return(
         <div>
             <h2>
@@ -42,7 +45,7 @@ function Dientich() {
                 </label>
                 <input type="number" value={c} onChange={(e) => setC(e.target.value)}/>
             </div>
-            <button onClick={dientich1}>Tìm diện tích</button>
+            <button onClick={Dientich1}>Tìm diện tích</button>
             <div>
                 {result}
             </div>
