@@ -22,6 +22,7 @@ export default function App(){
     const{name, value} = event.target;
     setValues((values)=>({...values,[name]:value}));
   }
+  const isDisabled = !values.firstName || !values.lastName || !values.email;
   
   return(
     <div >
@@ -62,7 +63,7 @@ export default function App(){
         onChange={handleInputChange}
         /> )}
         {submitted && !values.email&&(<span>Please enter the email</span>)}
-        <button type="submit" disabled={!values.firstName} disabled={!values.lastName} disabled={!values.email}>Register</button>
+        <button type="submit" disabled={isDisabled}>Register</button>
       </form>
     </div>
   );
