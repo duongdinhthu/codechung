@@ -1,5 +1,6 @@
  import React, { useState } from 'react'; 
  
+ 
  import * as math from 'mathjs';
 function QuadraticEquation() {
     const [a, setA] = useState({}); 
