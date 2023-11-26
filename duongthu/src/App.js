@@ -1,9 +1,7 @@
 import "./style.css";
-import "./App.css";
-import React, { useState } from "react";
+import { useState } from "react";
 import Input from "./Input";
 import Button from "./Button";
-import ErrorIcon from "./icons/Erro";
 import validateEmail from "./utils";
 
 function App() {
