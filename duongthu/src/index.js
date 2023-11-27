@@ -16,6 +16,7 @@ import App1 from "./component2/App.jsx";
 // import XmlHttpExample from "./component3/XmlHttpRequestExample.js";
 import FetchExample from "./component3/FetchExample.js";
 import AxiosExample from "./component3/AxiosExample.js";
+import Test from "./test/test1.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,11 +24,11 @@ root.render(
     {/* <ComponentExample/> */}
     {/* <App></App> */}
     {/* <Login></Login> */}
-    {/* <Test/> */}
+    <Test />
     {/* <MyAppWithProps></MyAppWithProps> */}
     {/* <RegistrationForm></RegistrationForm> */}
     {/* <PT></PT> */}
-    <DT></DT>
+    {/* <DT></DT> */}
     {/* <App1></App1> */}
     {/* <Form></Form> */}
     {/* <XmlHttpExample></XmlHttpExample> */}
