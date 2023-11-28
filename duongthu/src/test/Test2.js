@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 
-export default function Test1() {
+export default function Test2() {
   const [a, setA] = useState(0);
-  const [b, setB] = useState({});
-  const [c, setC] = useState({});
-  // console.log({ a });
+  const [b, setB] = useState("");
+  const [c, setC] = useState("");
   return (
     <div>
       <input
@@ -22,8 +21,8 @@ export default function Test1() {
         type="text"
         onChange={(e) => setC(e.target.value)}
       ></input>
-      <p>{a}</p>
-      {console.log({ a })};
+      <p>{c}</p>
+      {console.log({ a })}
     </div>
   );
 }

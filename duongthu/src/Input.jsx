@@ -1,5 +1,6 @@
 import ErrorIcon from "./icons/Error";
 import Valid from "./icons/Valid";
+import "./baithi/AddBook.css"
 export default function Input(props){
     return(
         <div 
