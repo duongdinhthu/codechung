@@ -1,11 +1,21 @@
-.book{
+.input-group{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
+   
 }
-.author{
-    margin-left: 0px;
+
+.button1{
+    margin-left: 675px;
+    margin-top: -30px;
 }
-.title{
-    margin-right: 0px;
+.search{
+    background-color: gray;
+    padding: 15px;
+    border-radius: 5px;
+}
+.formInput{
+    width: 676px;
+    outline: none;
 }

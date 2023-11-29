@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import { FaSearch } from "react-icons/fa";
+import "./book.css";
 
 export default function Book() {
   const [newBook, setNewBook] = useState({
@@ -19,8 +21,7 @@ export default function Book() {
   const handleAddShow = (event) => {
     event.preventDefault();
     // You can use the 'newBook' state here to access the entered data
-    console.log("Title:", newBook.title);
-    console.log("Author:", newBook.author);
+
     // Add any additional logic for handling the new book data
   };
 
@@ -34,66 +35,49 @@ export default function Book() {
       />
       <div className="container">
         <div className="input-group">
-          <span className="input-group-addon">
-            <span className="glyphicon glyphicon-search" />
+          <span className="search">
+            <FaSearch />
           </span>
-          <input
-            type="text"
-            className="form-control"
-            ng-model="main.searchInput"
-          />
+          <input type="text" className="formInput"></input>
         </div>
         <h3>A list of Books</h3>
         <ul className="list-group">
-          <li
-            className="list-group-item"
-            ng-repeat="show in main.shows | filter:main.searchInput | orderBy:main.order.key:main.order.reverse"
-          >
-            <span />
+          <li className="list-group-item">
             {" Life of Pi "}
             <span className="badge">Davan</span>
           </li>
-          <li
-            className="list-group-item"
-            ng-repeat="show in main.shows | filter:main.searchInput | orderBy:main.order.key:main.order.reverse"
-          >
-            <span className="glyphicon glyphicon-star" ng-if="show.favorite" />
+          <li className="list-group-item">
+            <span className="glyphicon glyphicon-star" />
             {" Học code today "}
             <span className="badge">Fpt</span>
           </li>
-          <li
-            className="list-group-item"
-            ng-repeat="show in main.shows | filter:main.searchInput | orderBy:main.order.key:main.order.reverse"
-          >
-            <span className="glyphicon glyphicon-star" ng-if="show.favorite" />
+          <li className="list-group-item">
+            <span className="glyphicon glyphicon-star" />
             {" Learn Angular by example "}
             <span className="badge">Fpt Aptech</span>
           </li>
-          <li
-            className="list-group-item"
-            ng-repeat="show in main.shows | filter:main.searchInput | orderBy:main.order.key:main.order.reverse"
-          >
+          <li className="list-group-item">
             <span />
             {" Họ nhà trai "}
             <span className="badge">Nguyễn Anh Tú</span>
           </li>
-          <li
-            className="list-group-item"
-            ng-repeat="show in main.shows | filter:main.searchInput | orderBy:main.order.key:main.order.reverse"
-          >
-            <span className="glyphicon glyphicon-star" ng-if="show.favorite" />
+          <li className="list-group-item">
+            <span className="glyphicon glyphicon-star" />
             {" Đôi mắt có lửa "}
             <span className="badge">Nguyễn Hùng Sơn</span>
           </li>
         </ul>
-        <select
-          className="form-control pull-right"
-          ng-model="main.order"
-          ng-options="order as order.title for order in main.orders"
-        />
+        <select className="form-control pull-right">
+          <option>Davan</option>
+          <option>Fpt</option>
+          <option>Fpt Aptect</option>
+          <option>Nguyễn Anh Tú</option>
+          <option>Nguyễn Hùng Sơn</option>
+        </select>
+
         <div className="clearfix" />
         <h3>Add a new Book</h3>
-        <form name="main.addForm" className="form" ng-submit="main.addShow()">
+        <form name="main.addForm" className="form">
           <div className="form-group">
             <label>Title</label>
             <input
@@ -120,14 +104,15 @@ export default function Book() {
           <div className="row">
             <div className="col-xs-6">
               <label>
-                Favorite: <input type="checkbox" ng-model="main.new.favorite" />
+                Favorite: <input type="checkbox" />
               </label>
             </div>
-            <div className="col-xs-6">
+            <div className="button1">
               <button className="btn btn-success pull-right">
                 <span
                   className="glyphicon glyphicon-plus-sign"
                   onClick={handleAddShow}
+                  disabled={!newBook.author || !newBook.title}
                 />{" "}
                 Add
               </button>

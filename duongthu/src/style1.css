@@ -1,0 +1,13 @@
+img{
+    width: 300px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.App2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
