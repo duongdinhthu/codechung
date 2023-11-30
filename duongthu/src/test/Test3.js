@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Input from "../Input";
-import validateEmail from "../utils";
+import Input from "../mau/Input";
+import validateEmail from "../mau/utils";
 export default function Test3() {
   const [email, setEmail] = useState({
     isTouched: false,

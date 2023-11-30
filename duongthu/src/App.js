@@ -1,8 +1,8 @@
-import "./style.css";
+import "./mau/style.css";
 import { useState } from "react";
-import Input from "./Input";
-import Button from "./Button";
-import validateEmail from "./utils";
+import Input from "./mau/Input";
+import Button from "./mau/Button";
+import validateEmail from "./mau/utils";
 
 function App() {
   const [email, setEmail] = useState({
