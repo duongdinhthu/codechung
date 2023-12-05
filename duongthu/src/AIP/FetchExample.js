@@ -13,9 +13,11 @@ function FetchExample() {
       .catch((error) => console.error(error));
   }, null);
   return (
-    <div>
-      {data ? <pre> {JSON.stringify(data, null, 2)}</pre> : "Data loading..."}
-    </div>
+    <ul>
+      {data.map((data) => (
+        <li key={data.id}>{data.name}</li>
+      ))}
+    </ul>
   );
 }
 export default FetchExample;

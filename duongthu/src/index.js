@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Book from "./baithi/Book.js";
 import reportWebVitals from "./reportWebVitals";
+import XmlHttpExample from "./AIP/XmlHttpRequestExample.js";
 // import MyAppWithProps from './component1/app';
 // import RegistrationForm from './formlogin/formlogin';
 // import Test1 from "./test/test1.js";
@@ -12,7 +13,9 @@ import App1 from "./App1.js";
 // import Test2 from "./test/Test2.js";
 import Studen1 from "./Studen.js";
 import Test3 from "./test/Test3.js";
+import App2 from "./mau/App.js";
 import App from "./App.js";
+import App3 from "./component4/App.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -29,16 +32,17 @@ root.render(
     {/* <XmlHttpExample></XmlHttpExample> */}
     {/* <FetchExample></FetchExample> */}
     {/* <AxiosExample></AxiosExample> */}
-    <Book></Book>
-    {/* <App></App> */}
+    {/* <Book></Book> */}
+    {/* <App2></App2> */}
     {/* <Test1></Test1> */}
     {/* <QuadraticEquation></QuadraticEquation> */}
     {/* <Dientich></Dientich> */}
     {/* <Test2></Test2> */}
     {/* <App1></App1> */}
     {/* <Studen1></Studen1> */}
-    {/* <App /> */}
+    {/* <App3></App3> */}
     {/* <Test3></Test3> */}
+    <XmlHttpExample></XmlHttpExample>
   </React.StrictMode>
 );
 

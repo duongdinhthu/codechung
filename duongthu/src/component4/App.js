@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import Home from "./component4/home";
-import About from "./component4/about";
-import Product from "./component4/product";
-import Contact from "./component4/contact";
-import Category from "./component4/category";
+import Home from "./home";
+import About from "./about";
+import Product from "./product";
+import Contact from "./contact";
+import Category from "./category";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import "./App.css";
 
-class App extends Component {
+class App3 extends Component {
   render() {
     return (
       <Router>
@@ -41,4 +40,4 @@ class App extends Component {
     );
   }
 }
-export default App;
+export default App3;
