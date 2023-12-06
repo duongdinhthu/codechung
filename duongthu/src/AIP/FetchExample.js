@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 function FetchExample() {
   const [data, setData] = useState(null);
   useEffect(() => {
+    //useEffect dùng cho việc fetch API
     //cấu trúc nguyên mẫu hàm effect gồm 2 hàm ,
     fetch("https://jsonplaceholder.typicode.com/users")
       //hàm fetch được sử dụng để gọi API và lấy dữ liệu từ đó
@@ -13,11 +14,9 @@ function FetchExample() {
       .catch((error) => console.error(error));
   }, null);
   return (
-    <ul>
-      {data.map((data) => (
-        <li key={data.id}>{data.name}</li>
-      ))}
-    </ul>
+    <div>
+      {data ? <pre> {JSON.stringify(data, null, 2)}</pre> : "Data loading..."}
+    </div>
   );
 }
 export default FetchExample;

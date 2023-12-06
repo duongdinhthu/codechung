@@ -16,6 +16,9 @@ import Test3 from "./test/Test3.js";
 import App2 from "./mau/App.js";
 import App from "./App.js";
 import App3 from "./component4/App.js";
+import App4 from "./Router/App.js";
+import App5 from "./CRUD/App.js";
+// import Create from "./CRUD/create.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -42,7 +45,10 @@ root.render(
     {/* <Studen1></Studen1> */}
     {/* <App3></App3> */}
     {/* <Test3></Test3> */}
-    <XmlHttpExample></XmlHttpExample>
+    {/* <XmlHttpExample></XmlHttpExample> */}
+    {/* <App4></App4> */}
+    <App5></App5>
+    {/* <Create></Create> */}
   </React.StrictMode>
 );
 

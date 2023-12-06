@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+.product{
+    width: 50%; 
+     
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    width: 50%; 
+   
+   
+    
+    
+}
+.phone{
+    width: 50%; 
+    
+    
+    
+}
+.input1{
+    margin-left: 20px;
+}
+.email{
+    width: 50%; 
+    
+    
+}
+.button{
+    display: flex;
+}
+.button1{
+    width: 100px;
+}
+.button2{
+    width: 100px;
+}

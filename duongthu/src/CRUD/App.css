@@ -1,0 +1,24 @@
+
+.create-form label{
+    color: green;
+    color: white;
+    font-size: 12px,!important;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+    flex-direction: column;
+}
+.main-header{
+    font-family: "Hedvig Letter Serif",serif ;
+    color: white;
+    font-size: 12px,!important;
+}
+.checkbox{
+    display: flex;
+}

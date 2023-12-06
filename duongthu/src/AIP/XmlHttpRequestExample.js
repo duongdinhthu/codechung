@@ -5,7 +5,7 @@ function XmlHttpExample() {
   function handleClick() {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "https://jsonplaceholder.typicode.com/users");
-    // G;et là đọc API , url của API
+    // Get là đọc API , url của API
     xhr.onload = function () {
       // mỗi khi load trang sẽ gọi 1 hàm
       // mỗi khi thành công thì code status = 200 là thành công
