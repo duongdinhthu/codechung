@@ -5,7 +5,7 @@ function AxiosExample() {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get("https://65617ceddcd355c08323db8b.mockapi.io/api/v9/FakeData")
+      .get("https://656ef4286529ec1c623703c2.mockapi.io/api/v1/ok")
       .then((response) => {
         setData(response.data);
       })
@@ -16,7 +16,9 @@ function AxiosExample() {
   return (
     <ul>
       {data.map((data) => (
-        <li key={data.id}>{data.name}</li>
+        <li key={data.id}>
+          Họ:{data.firstName}----Tên:{data.lastName}-----{data.checkbox}
+        </li>
       ))}
     </ul>
   );

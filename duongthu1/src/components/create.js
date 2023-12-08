@@ -10,17 +10,17 @@ function Create() {
   const [checkBox, setCheckBox] = useState(false);
   console.log(firstName);
   const postData = () => {
-    // console.log(firstName);
-    // console.log(lastName);
-    // console.log(checkBox);
+    console.log(firstName);
+    console.log(lastName);
+    console.log(checkBox);
     axios
-      .post("https://656ae3e0dac3630cf72765d3.mockapi.io/product", {
+      .post("https://656ef4286529ec1c623703c2.mockapi.io/api/v1/ok", {
         firstName,
         lastName,
         checkBox,
       })
       .then(() => {
-        history.push("/read");
+        history.push("/Create");
       });
   };
 
