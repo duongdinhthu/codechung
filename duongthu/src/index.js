@@ -16,10 +16,13 @@ import reportWebVitals from "./reportWebVitals";
 // import App2 from "./mau/App.js";
 // import App from "./App.js";
 // import App3 from "./component4/App.js";
-// import App4 from "./Router/App.js";
+// import Create from "./CRUD/create.js";
+import App4 from "./Router/App.js";
 // import App5 from "./CRUD/App.js";
+import PT from "./ptb2/ptb2.js";
 // // import Create from "./CRUD/create.js";
 import AxiosExample from "./AIP/AxiosExample.js";
+// import App6 from "./layout/App.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -29,7 +32,7 @@ root.render(
     {/* <Test /> */}
     {/* <MyAppWithProps></MyAppWithProps> */}
     {/* <RegistrationForm></RegistrationForm> */}
-    {/* <PT></PT> */}
+    <PT></PT>
     {/* <DT></DT> */}
     {/* <App1></App1> */}
     {/* <Form></Form> */}
@@ -50,7 +53,9 @@ root.render(
     {/* <App4></App4> */}
     {/* <App5></App5> */}
     {/* <Create></Create> */}
-    <AxiosExample></AxiosExample>
+    {/* <App6></App6> */}
+
+    {/* <AxiosExample></AxiosExample> */}
   </React.StrictMode>
 );
 

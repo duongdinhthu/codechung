@@ -3,7 +3,7 @@ import Home from "./Home";
 import Register from "./Register";
 import About from "./About";
 import "./App.css";
-import { Route, Link, Routes, BrowserRouter as Router } from "react-router-dom";
+import { Route, Link, Switch, BrowserRouter as Router } from "react-router-dom";
 export default function App4() {
   return (
     <Router>
@@ -19,11 +19,11 @@ export default function App4() {
             <Link to="/Register">Register</Link>
           </li>
         </ul>
-        <Routes>
-          <Route exact path="/Home" element={<Home />}></Route>
-          <Route exact path="/About" element={<About />}></Route>
-          <Route exact path="/Register" element={<Register />}></Route>
-        </Routes>
+        <Switch>
+          <Route path="/Home" element={<Home />}></Route>
+          <Route path="/About" element={<About />}></Route>
+          <Route path="/Register" element={<Register />}></Route>
+        </Switch>
       </div>
     </Router>
   );
