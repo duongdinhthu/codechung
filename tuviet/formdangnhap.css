@@ -32,7 +32,6 @@ Nếu chiều cao lớn hơn chiều rộng thì background sẽ chỉnh 100% th
   position: relative;
   width: 400px;
   height: 300px;
-
   border-radius: 10px;
   overflow: hidden;
   
