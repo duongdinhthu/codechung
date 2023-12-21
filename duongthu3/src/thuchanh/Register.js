@@ -1,10 +1,8 @@
+import { type } from "@testing-library/user-event/dist/type";
 import "./Register.css";
 import React, { useState } from "react";
 
-export default function Register() {
-  const [firstName, setfirstName] = useState("");
-  const [lastName, setlastName] = useState("");
-  const [email, setEmail] = useState("");
+function Register() {
   const [values, setValues] = useState({
     firstName: "",
     lastName: "",
@@ -21,8 +19,10 @@ export default function Register() {
   };
 
   const handleInputChange = (event) => {
+    event.preventDefault();
     const { name, value } = event.target;
     setValues((values) => ({ ...values, [name]: value }));
+    type;
   };
   const isDisabled = !values.firstName || !values.lastName || !values.email;
 
@@ -91,3 +91,4 @@ export default function Register() {
     </div>
   );
 }
+export default Register;

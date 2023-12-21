@@ -142,9 +142,11 @@ input:hover{
     cursor: pointer;
 }
 .button1{
-    background-color:#7FFFD4;
+    background-color:#ffffff;
     color:gray;
     cursor: pointer;
     padding: 20px;
     margin-top: 100px;
+    border-radius: 4px;
+    border: 1px solid;
 }
