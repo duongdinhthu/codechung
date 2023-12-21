@@ -2,7 +2,7 @@ import { type } from "@testing-library/user-event/dist/type";
 import "./Register.css";
 import React, { useState } from "react";
 
-function Register() {
+export default function Register() {
   const [values, setValues] = useState({
     firstName: "",
     lastName: "",
@@ -22,8 +22,8 @@ function Register() {
     event.preventDefault();
     const { name, value } = event.target;
     setValues((values) => ({ ...values, [name]: value }));
-    type;
   };
+
   const isDisabled = !values.firstName || !values.lastName || !values.email;
 
   return (
@@ -91,4 +91,3 @@ function Register() {
     </div>
   );
 }
-export default Register;
