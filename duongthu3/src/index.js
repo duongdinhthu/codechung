@@ -2,13 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
+import App1 from "./doan1/App";
 import reportWebVitals from "./reportWebVitals";
-import LienHe from "./doan1/LienHe";
-
+import { BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <LienHe></LienHe>
+    <BrowserRouter>
+      <App1 />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

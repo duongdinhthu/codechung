@@ -14,7 +14,7 @@ function Create() {
     console.log(lastName);
     console.log(checkBox);
     axios
-      .post("https://656ef4286529ec1c623703c2.mockapi.io/api/v1/ok", {
+      .post("https://658c1ca8859b3491d3f5813a.mockapi.io/api/ok/ok", {
         firstName,
         lastName,
         checkBox,

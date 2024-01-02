@@ -1,5 +1,6 @@
 import Create from "./create";
 import "./App.css";
+import { Image } from "semantic-ui-react";
 function App5() {
   return (
     <div className="main">
